@@ -1,0 +1,270 @@
+/* Fonts CSS */
+@font-face {
+    font-family: 'ITC Kabel Std Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Kabel Std Book'), url('ITCKabelStdBook.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'ITC Kabel Std Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Kabel Std Medium'), url('ITCKabelStdMedium.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'ITC Kabel Std Demi';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Kabel Std Demi'), url('ITCKabelStdDemi.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'ITC Kabel Std Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Kabel Std Bold'), url('ITCKabelStdBold.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'ITC Kabel Std Ultra';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Kabel Std Ultra'), url('ITCKabelStdUltra.woff') format('woff');
+}
+
+/* General CSS */
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+main {
+    display: block;
+}
+a {
+	background-color: transparent;
+}
+b,
+strong {
+	font-weight: bolder;
+}
+small {
+	font-size: 80%;
+}
+img {
+	border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+[hidden] {
+	display: none;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+html {
+	box-sizing: border-box;
+}
+
+/* Typography
+--------------------------------------------- */
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #000000;
+	font-family: 'Merriweather', serif;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	font-family: 'Oswald', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	margin-top: 0;
+}
+h1, .h1 {
+    font-size: 32px;
+    font-size: 2em;
+}
+h2, .h2 {
+    font-size: 27.8576px;
+    font-size: 1.7411em;
+}
+h3, .h3 {
+    font-size: 24.2515px;
+    font-size: 1.5157em;
+}
+h4, .h4 {
+    font-size: 21.1121px;
+    font-size: 1.3195em;
+}
+h5, .h5 {
+    font-size: 18.3792px;
+    font-size: 1.1287em;
+}
+h6, .h6 {
+    font-size: 16.3792px;
+    font-size: 1em;
+}
+p {
+	margin-bottom: 1.5em;
+	margin-top: 0;
+}
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+blockquote {
+	margin: 0 1.5em;
+}
+address {
+	margin: 0 0 1.5em;
+}
+pre {
+	background: #eee;
+	font-family: 'Merriweather', serif;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+code,
+kbd,
+tt,
+var {
+	font-family: 'Merriweather', serif;
+}
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+big {
+	font-size: 125%;
+}
+
+/* Links
+--------------------------------------------- */
+a {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #048037;
+}
+a:focus{
+	color: #048037;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+	color: #048037 !important;
+}
+
+/* Navigation
+--------------------------------------------- */
+.main-navigation {
+	display: block;
+	width: 100%;
+}
+.main-navigation ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+.main-navigation ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	float: left;
+	position: absolute;
+	top: 100%;
+	left: -999em;
+	z-index: 99999;
+}
+.main-navigation ul ul ul {
+	left: -999em;
+	top: 0;
+}
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+    display: block;
+    left: 200px;
+}
+.main-navigation li ul > li {
+    border-bottom: 1px solid #ccc;
+}
+.main-navigation li ul li a {
+    padding: 5px;
+    font-size: 14px;
+}
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
+    left: auto;
+    display: block;
+    text-align: left;
+    width: 200px;
+    background: rgba(255,255,255,0.6);
+}
+.main-navigation li {
+	position: relative;
+}
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+}
