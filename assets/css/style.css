@@ -286,8 +286,6 @@ nav.main-navigation.navbar ul li ul {
     color: #a8a8a8;
 }
 
-.footer-top {}
-
 .foo-top-nav ul {
     display: flex;
     justify-content: flex-end;
@@ -300,7 +298,7 @@ nav.main-navigation.navbar ul li ul {
     margin-left: 5px;
 }
 
-.footer-mid {
+.footer-mid .mid-row {
     background: #252525;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -322,8 +320,6 @@ nav.main-navigation.navbar ul li ul {
 ul.foo-social {
     display: flex;
 }
-
-ul.foo-social li a {}
 
 .copyright-wrap {
     display: flex;
