@@ -1,42 +1,4 @@
 /* Fonts CSS */
-@font-face {
-    font-family: 'ITC Kabel Std Book';
-    font-style: normal;
-    font-weight: normal;
-    src: local('ITC Kabel Std Book'), url('ITCKabelStdBook.woff') format('woff');
-}
-    
-
-@font-face {
-    font-family: 'ITC Kabel Std Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('ITC Kabel Std Medium'), url('ITCKabelStdMedium.woff') format('woff');
-}
-    
-
-@font-face {
-    font-family: 'ITC Kabel Std Demi';
-    font-style: normal;
-    font-weight: normal;
-    src: local('ITC Kabel Std Demi'), url('ITCKabelStdDemi.woff') format('woff');
-}
-    
-
-@font-face {
-    font-family: 'ITC Kabel Std Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('ITC Kabel Std Bold'), url('ITCKabelStdBold.woff') format('woff');
-}
-    
-
-@font-face {
-    font-family: 'ITC Kabel Std Ultra';
-    font-style: normal;
-    font-weight: normal;
-    src: local('ITC Kabel Std Ultra'), url('ITCKabelStdUltra.woff') format('woff');
-}
 
 /* General CSS */
 html {
@@ -234,5 +196,31 @@ a:active {
 }
 /* Navigation
 --------------------------------------------- */
+.header-top {
+    background: #f4f4f4;
+    display: flex;
+    justify-content: flex-end;
+}
 
+ul.header-top-item {display: flex;justify-content: space-evenly;align-items: center;margin: 0;}
+
+ul.header-top-item li {
+    position: relative;
+    margin: 0 10px;
+}
+
+ul.header-top-item li:after {content: "";height: 20px;width: 2px;background: #ddd;position: absolute;right: -10px;top: 12px;}
+
+ul.header-top-item li ul {
+    display: none;
+}
+
+ul.header-top-item li:last-child:after {
+    display: none;
+}
+
+ul.header-top-item li a {
+    display: inline-block;
+    padding: 10px;
+}
 
