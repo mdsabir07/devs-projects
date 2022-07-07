@@ -18,7 +18,7 @@ main {
 }
 
 .container {
-    width: 75%;
+    width: 85%;
 }
 .container-fluid {
     width: 95%;
@@ -298,8 +298,10 @@ nav.main-navigation.navbar ul li ul {
     margin-left: 5px;
 }
 
-.footer-mid .mid-row {
+.footer-mid{
     background: #252525;
+}
+.footer-mid .mid-row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
