@@ -275,6 +275,29 @@ nav.main-navigation.navbar ul li ul {
     margin-left: 5px;
 }
 
+ul.header-top-item li:hover ul {
+    display: block;
+}
+
+ul.header-top-item li ul {
+    position: absolute;
+    top: 42px;
+    width: 170px;
+    left: -42px;
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+ul.header-top-item li ul li {
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+ul.header-top-item li ul li a {
+    padding: 6px;
+    display: block;
+}
+
 /* Footer CSS */
 .footer-top {
     background: #343434;
