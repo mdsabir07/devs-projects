@@ -301,6 +301,7 @@ nav.main-navigation.navbar ul li ul {
 
 .footer-mid{
     background: #252525;
+    padding: 20px 0;
 }
 .footer-mid .mid-row {
     display: grid;
