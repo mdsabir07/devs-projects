@@ -205,6 +205,7 @@ a:active {
     background: #f4f4f4;
     display: flex;
     justify-content: flex-end;
+    padding: 0 20px;
 }
 
 ul.header-top-item {display: flex;justify-content: space-evenly;align-items: center;margin: 0;}
@@ -231,7 +232,7 @@ ul.header-top-item li a {
 .header-bottom {
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 
 .header-b-left {
@@ -279,7 +280,7 @@ nav.main-navigation.navbar ul li ul {
     background: #343434;
     display: grid;
     grid-template-columns: auto auto;
-    padding: 15px 0;
+    padding: 20px;
 }
 
 .site-footer a {
@@ -316,7 +317,7 @@ nav.main-navigation.navbar ul li ul {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 30px 20px;
 }
 
 ul.foo-social {
@@ -327,6 +328,7 @@ ul.foo-social {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 20px;
 }
 
 .cpr-left {
@@ -340,3 +342,8 @@ ul.cpr-nav {
 }
 
 ul.cpr-nav li a {display: block;padding: 10px;margin-left: 5px;}
+
+.site-content .container-fluid {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
