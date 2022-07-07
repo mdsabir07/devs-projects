@@ -215,7 +215,7 @@ ul.header-top-item li {
     margin: 0 10px;
 }
 
-ul.header-top-item li:after {content: "";height: 20px;width: 2px;background: #ddd;position: absolute;right: -10px;top: 12px;}
+ul.header-top-item > li:after {content: "";height: 20px;width: 2px;background: #ddd;position: absolute;right: -10px;top: 12px;}
 
 ul.header-top-item li ul {
     display: none;
