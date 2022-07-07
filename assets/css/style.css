@@ -69,7 +69,11 @@ img {
 html {
 	box-sizing: border-box;
 }
-ul, ol {list-style: none;}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 /* Typography
 --------------------------------------------- */
@@ -101,6 +105,7 @@ h5,
 h6 {
 	clear: both;
 	margin-top: 0;
+    margin-bottom: 15px;
 }
 h1, .h1 {
     font-size: 32px;
@@ -269,3 +274,71 @@ nav.main-navigation.navbar ul li ul {
     margin-left: 5px;
 }
 
+/* Footer CSS */
+.footer-top {
+    background: #343434;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px 0;
+}
+
+.site-footer a {
+    color: #a8a8a8;
+}
+
+.footer-top {}
+
+.foo-top-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.foo-top-nav ul li a {
+    display: block;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.footer-mid {
+    background: #252525;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-mid h5 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-bottom {
+    background: #1B394E;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+ul.foo-social {
+    display: flex;
+}
+
+ul.foo-social li a {}
+
+.copyright-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cpr-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.cpr-nav {
+    display: flex;
+}
+
+ul.cpr-nav li a {display: block;padding: 10px;margin-left: 5px;}
