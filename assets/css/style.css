@@ -218,7 +218,9 @@ a:active {
 	outline: 0;
 	color: #048037 !important;
 }
-
+.custom-logo-link {
+	display: inline-block;
+}
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
@@ -267,4 +269,15 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+}
+
+.container, .container-fluid {
+    margin: 0 auto;
+}
+
+.container {
+    width: 75%;
+}
+.container-fluid {
+    width: 90%;
 }
