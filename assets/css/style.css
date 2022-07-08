@@ -504,7 +504,7 @@ ul.foo-social li a i {
 .msitheme-slider .slick-arrow {
     height: 50px !important;
     width: 50px !important;
-    background: #000;
+    background: green;
     right: -50px;
 }
 
@@ -526,11 +526,7 @@ ul.foo-social li a i {
 }
 
 .msitheme-slider .slick-arrow:hover {
-    background: #fff;
-}
-
-.msitheme-slider .slick-prev:hover::before, .msitheme-slider .slick-next:hover::before {
-    color: blue;
+    background: #000;
 }
 
 .msitheme-slider {
