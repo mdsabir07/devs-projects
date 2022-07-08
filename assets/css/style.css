@@ -554,3 +554,24 @@ ul.foo-social li a i {
 .cta-content {
     padding: 50px 0;
 }
+
+.cta2 {
+    background-image: url("../imgs/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.cta2::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    content: "";
+    z-index: -1;
+}
