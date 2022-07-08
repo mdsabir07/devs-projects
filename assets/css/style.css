@@ -28,7 +28,7 @@ a {
 }
 b,
 strong {
-	font-weight: bolder;
+	font-weight: bold;
 }
 small {
 	font-size: 80%;
@@ -37,6 +37,12 @@ img {
 	border-style: none;
     max-width: 100%;
     height: auto;
+}
+figure {
+	margin: 1em 0;
+    font-family: 'Ford Antenna ExtraCond Lght';
+    font-weight: 300;
+    color: #fff;
 }
 [type="checkbox"],
 [type="radio"] {
@@ -84,7 +90,8 @@ select,
 optgroup,
 textarea {
 	color: #000000;
-	font-family: 'Merriweather', serif;
+    font-family: 'Ford Antenna Cond';
+    font-weight: 300;
 	font-size: 1rem;
 	line-height: 1.5;
 }
@@ -95,7 +102,7 @@ h4,
 h5,
 h6,
 a {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Ford Antenna Cond';
 }
 h1,
 h2,
@@ -106,14 +113,17 @@ h6 {
 	clear: both;
 	margin-top: 0;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 h1, .h1 {
     font-size: 32px;
     font-size: 2em;
+    font-weight: 900;
 }
 h2, .h2 {
     font-size: 27.8576px;
     font-size: 1.7411em;
+    font-weight: bold;
 }
 h3, .h3 {
     font-size: 24.2515px;
@@ -122,14 +132,17 @@ h3, .h3 {
 h4, .h4 {
     font-size: 21.1121px;
     font-size: 1.3195em;
+    font-weight: 500;
 }
 h5, .h5 {
     font-size: 18.3792px;
     font-size: 1.1287em;
+    font-weight: 500;
 }
 h6, .h6 {
     font-size: 16.3792px;
     font-size: 1em;
+    font-weight: 500;
 }
 p {
 	margin-bottom: 1.5em;
@@ -389,4 +402,142 @@ ul.foo-social li a i {
     text-align: center;
     color: #fff;
     margin-left: 10px;
+}
+
+/* slider css */
+.slider-single-item img {
+    height: 100vh;
+    object-fit: cover;
+}
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+.slider-single-item {
+    position: relative;
+}
+
+.slider-content {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.slider-content h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.slider-content, .slider-content a {
+    color: #fff;
+}
+
+.slider-sub-heading {
+    font-size: 25px;
+}
+
+.msitheme-btn {
+    display: inline-block;
+    background: green;
+    padding: 15px 40px;
+}
+
+.msitheme-btn:hover {
+    background: #000;
+    color: #ccc !important;
+}
+
+.slider-single-item figure figcaption {
+    position: absolute;
+    bottom: 20%;
+    left: 100px;
+}
+.msitheme-slider .slick-dots {
+    bottom: 40px;
+}
+
+.msitheme-slider .slick-dots li button::before {
+    font-size: 20px;
+}
+
+.msitheme-slider li.slick-active button::before {
+    opacity: 1;
+}
+.msitheme-slider .slick-dots {
+    bottom: 40px;
+}
+
+.msitheme-slider .slick-dots li button::before {
+    font-size: 20px;
+}
+
+.msitheme-slider li.slick-active button::before {
+    opacity: 1;
+}
+
+.msitheme-slider .slick-prev {
+    left: auto;
+    right: -25px;
+    top: 45%;
+}
+
+.msitheme-slider .slick-arrow {
+    height: 50px !important;
+    width: 50px !important;
+    background: #000;
+    right: -50px;
+}
+
+.msitheme-slider .slick-prev::before, .msitheme-slider .slick-next::before {
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Ford Antenna ExtraCond';
+    content: "<";
+    color: #fff;
+    line-height: 50px;
+}
+
+.msitheme-slider .slick-next::before {
+    content: ">";
+}
+
+.msitheme-slider .slick-next {
+    top: 55%;
+}
+
+.msitheme-slider .slick-arrow:hover {
+    background: #fff;
+}
+
+.msitheme-slider .slick-prev:hover::before, .msitheme-slider .slick-next:hover::before {
+    color: blue;
+}
+
+.msitheme-slider {
+    overflow: hidden;
+}
+
+.msitheme-slider:hover .slick-arrow {
+    right: 0;
+    z-index: 2;
 }
