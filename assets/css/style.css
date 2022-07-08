@@ -39,7 +39,7 @@ img {
     height: auto;
 }
 figure {
-	margin: 1em 0;
+	margin: 0 0;
     font-family: 'Ford Antenna ExtraCond Lght';
     font-weight: 300;
     color: #fff;
@@ -113,17 +113,15 @@ h6 {
 	clear: both;
 	margin-top: 0;
     margin-bottom: 15px;
-    font-weight: bold;
+    font-weight: normal;
 }
 h1, .h1 {
     font-size: 32px;
     font-size: 2em;
-    font-weight: 900;
 }
 h2, .h2 {
     font-size: 27.8576px;
     font-size: 1.7411em;
-    font-weight: bold;
 }
 h3, .h3 {
     font-size: 24.2515px;
@@ -132,17 +130,14 @@ h3, .h3 {
 h4, .h4 {
     font-size: 21.1121px;
     font-size: 1.3195em;
-    font-weight: 500;
 }
 h5, .h5 {
     font-size: 18.3792px;
     font-size: 1.1287em;
-    font-weight: 500;
 }
 h6, .h6 {
     font-size: 16.3792px;
     font-size: 1em;
-    font-weight: 500;
 }
 p {
 	margin-bottom: 1.5em;
@@ -162,7 +157,7 @@ address {
 }
 pre {
 	background: #eee;
-	font-family: 'Merriweather', serif;
+	font-family: 'Ford Antenna Cond';
 	line-height: 1.6;
 	margin-bottom: 1.6em;
 	max-width: 100%;
@@ -173,7 +168,7 @@ code,
 kbd,
 tt,
 var {
-	font-family: 'Merriweather', serif;
+	font-family: 'Ford Antenna Cond';
 }
 abbr,
 acronym {
@@ -486,6 +481,9 @@ ul.foo-social li a i {
 .msitheme-slider .slick-dots {
     bottom: 40px;
 }
+.msitheme-slider.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
 
 .msitheme-slider .slick-dots li button::before {
     font-size: 20px;
@@ -536,4 +534,23 @@ ul.foo-social li a i {
 .msitheme-slider:hover .slick-arrow {
     right: 0;
     z-index: 2;
+}
+
+/* CTA CSS */
+.msitheme-cta {
+    background: #222A33;
+}
+
+.cta-content, .cta-content a {
+    color: #fff;
+    text-align: center;
+}
+
+.cta-content h2 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.cta-content {
+    padding: 50px 0;
 }
