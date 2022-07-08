@@ -575,3 +575,20 @@ ul.foo-social li a i {
     content: "";
     z-index: -1;
 }
+
+/* Filter CSS */
+.grey-bg {
+    background: #eee;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.grey-bg h2 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.grey-bg .sub-title {
+    font-size: 30px;
+}
+
