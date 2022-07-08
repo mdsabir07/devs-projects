@@ -209,31 +209,48 @@ a:active {
 }
 /* Navigation
 --------------------------------------------- */
+.site-header {
+    height: 127px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
 .header-top {
     background: #f4f4f4;
     display: flex;
     justify-content: flex-end;
     padding: 0 20px;
 }
+.header-top-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
 
-ul.header-top-item {display: flex;justify-content: space-evenly;align-items: center;margin: 0;}
-
-ul.header-top-item li {
+.header-top-item li {
     position: relative;
     margin: 0 10px;
 }
 
-ul.header-top-item > li:after {content: "";height: 20px;width: 2px;background: #ddd;position: absolute;right: -10px;top: 12px;}
+.header-top-item > li:after {
+    content: "";
+    height: 20px;
+    width: 2px;
+    background: #ddd;
+    position: absolute;
+    right: -10px;
+    top: 12px;
+}
 
-ul.header-top-item li ul {
+.navbar li ul {
     display: none;
 }
 
-ul.header-top-item li:last-child:after {
+.header-top-item li:last-child:after {
     display: none;
 }
 
-ul.header-top-item li a {
+.header-top-item li a {
     display: inline-block;
     padding: 10px;
 }
@@ -253,24 +270,24 @@ ul.header-top-item li a {
     width: 120px;
 }
 
-nav.main-navigation.navbar ul {
+.main-navigation.navbar > ul {
     display: flex;
     margin: 0;
 }
 
-nav.main-navigation.navbar ul li {
+.main-navigation.navbar ul li {
     position: relative;
 }
 
-nav.main-navigation.navbar ul li a {
+.main-navigation.navbar ul li > a {
     display: block;
     padding: 15px;
     margin-left: 5px;
 }
 
-nav.main-navigation.navbar ul li ul {
+/* .main-navigation.navbar ul li ul {
     display: none;
-}
+} */
 
 .header-b-right ul {
     display: flex;
@@ -283,26 +300,27 @@ nav.main-navigation.navbar ul li ul {
     margin-left: 5px;
 }
 
-ul.header-top-item li:hover ul {
+.navbar li:hover ul {
     display: block;
 }
 
-ul.header-top-item li ul {
+.navbar li ul {
     position: absolute;
     top: 42px;
     width: 170px;
     left: -42px;
     background: #fff;
     border: 1px solid #eee;
+    z-index: 2;
 }
 
-ul.header-top-item li ul li {
+.navbar li ul li {
     margin: 0;
     border-bottom: 1px solid #ddd;
 }
 
-ul.header-top-item li ul li a {
-    padding: 6px;
+.navbar li ul li a {
+    padding: 6px !important;
     display: block;
 }
 
