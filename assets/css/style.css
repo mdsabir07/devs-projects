@@ -113,7 +113,7 @@ h6 {
 	clear: both;
 	margin-top: 0;
     margin-bottom: 15px;
-    font-weight: normal;
+    font-weight: 300;
 }
 h1, .h1 {
     font-size: 32px;
@@ -210,9 +210,16 @@ a:active {
 /* Navigation
 --------------------------------------------- */
 .site-header {
-    height: 127px;
     border-bottom: 1px solid #ccc;
-    display: block;
+    background: #fff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 95%;
+    z-index: 5;
+}
+.main-content {
+    margin-top: 127px;
 }
 .header-top {
     background: #f4f4f4;
@@ -610,3 +617,64 @@ ul.foo-social li a i {
     font-size: 30px;
 }
 
+.msitheme-filters {
+    margin: 10px auto;
+}
+.msitheme-filters ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.msitheme-filters ul li {
+    list-style: none;
+    background: #eee;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.msitheme-filters ul li.active {
+    background: green;
+    color: #fff;
+}
+
+.msitheme-filter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.msitheme-filter .itemBx {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    border: 1px solid #eee;
+}
+
+.msitheme-filter .itemBx img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+}
+.msitheme-filter .slick-slide {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+    .msitheme-filters {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .msitheme-filters ul {
+        display: block;
+    }
+}
