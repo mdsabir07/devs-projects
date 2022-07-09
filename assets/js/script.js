@@ -35,4 +35,48 @@
         autoplaySpeed: 2000
     });
 
+    // Scroll to top
+    (function($, window, document) {
+        $.fn.goTop = function(options) {
+            var defaults = {
+                scrollTop: 100,
+                scrollSpeed: 1000,
+                fadeInSpeed: 1000,
+                fadeOutSpeed: 500
+            };
+
+            var options = $.extend(defaults, options);
+            var $this = $(this);
+            $(window).on('scroll', function() {
+                if($(window).scrollTop() > options.scrollTop) {
+                    $this.fadeIn(options.fadeInSpeed);
+                } else {
+                    $this.fadeOut(options.fadeOutSpeed);
+                }
+            })
+            $this.on('click', function() {
+                $('html,body').animate({
+                    'scrollTop':0
+                }, options.speed)
+            })
+        }
+    })(jQuery, window, document)
+
+    $('#go-top').goTop({
+        scrollTop: 100,
+        scrollSpeed: 1000,
+        fadeInSpeed: 1000,
+        fadeOutSpeed: 500
+    })
+
+    // Button script
+    const btn = document.querySelector('.msitheme-btn');
+    btn.onmousemove = function(e) {
+        const x = e.pageX - btn.offsetLeft;
+        const y = e.pageY - btn.offsetTop;
+
+        btn.style.setProperty('--x', x + 'px');
+        btn.style.setProperty('--y', y + 'px');
+    }
+
 })(jQuery);

@@ -207,12 +207,32 @@ a:active {
 .custom-logo-link {
 	display: inline-block;
 }
+
+/* scroll to top */
+#go-top{
+    display: none;
+    font-size: 30px;
+    position: fixed;
+    bottom: 200px;
+    right: 50px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+}
+#go-top:hover {
+    background: green;
+}
+
 /* Navigation
 --------------------------------------------- */
 .site-header {
     border-bottom: 1px solid #ccc;
     background: #fff;
-    overflow: hidden;
     position: fixed;
     top: 0;
     width: 95%;
@@ -476,7 +496,7 @@ ul.foo-social li a i {
     font-size: 25px;
 }
 
-.msitheme-btn {
+/* .msitheme-btn {
     display: inline-block;
     background: green;
     padding: 15px 40px;
@@ -485,6 +505,36 @@ ul.foo-social li a i {
 .msitheme-btn:hover {
     background: #000;
     color: #ccc !important;
+} */
+.msitheme-btn {
+    position: relative;
+    display: inline-flex;
+    padding: 10px 30px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+.msitheme-btn span {
+    position: relative;
+    z-index: 1;
+}
+.msitheme-btn::before {
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: var(--x);
+    top: var(--y);
+    width: 0;
+    height: 0;
+    background-color: #000;
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s;
+}
+.msitheme-btn:hover::before {
+    height: 300px;
+    width: 300px;
 }
 
 .slider-single-item figure figcaption {
