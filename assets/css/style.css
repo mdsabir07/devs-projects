@@ -799,7 +799,7 @@ ul.foo-social li a i {
     color: #fff; 
     background: green; 
     cursor: pointer; 
-    border-radius: 7px; 
+    /* border-radius: 7px;  */
     transition: all 0.25s ease-out; 
 } 
 .msitheme-acordion  .msitheme-acordion-toggle:hover { 
@@ -834,8 +834,8 @@ ul.foo-social li a i {
 .msitheme-acordion .collapsible-content .content-inner { 
     background: rgba(0, 105, 255, .2); 
     border-bottom: 1px solid rgba(0, 105, 255, .45); 
-    border-bottom-left-radius: 7px; 
-    border-bottom-right-radius: 7px; 
+    /* border-bottom-left-radius: 7px;  */
+    /* border-bottom-right-radius: 7px;  */
     padding: .5rem 1rem; 
 } 
 .msitheme-acordion .collapsible-content p { 
