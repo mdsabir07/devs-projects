@@ -842,3 +842,142 @@ ul.foo-social li a i {
     margin-bottom: 0; 
 }
 
+/* Shop CSS */
+.msitheme-shop {
+    overflow: hidden;
+    max-height: 100%;
+    position: relative;
+}
+.shop-sidebar {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.shop-sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.shop-sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.shop-sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding: 0;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#shop-main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+.msitheme-shop.button-item button {
+    display: none;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .shop-sidebar {padding-top: 15px;}
+    .shop-sidebar a {font-size: 18px;}
+}
+
+/* shop content css */
+.shop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-header h1 {
+    margin-bottom: 0;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.shop-header select {
+    border: 1px solid green;
+    height: 50px;
+    color: green;
+}
+
+.shop-header select option {
+    border-radius: 0 !important;
+    scroll-behavior: inherit;
+}
+
+.shop-products ul {position: relative;display: grid;max-width: 100%;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));grid-template-rows: minmax(100px, auto);margin: 40px;grid-auto-flow: dense;grid-gap: 10px;}
+
+.shop-products ul li {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.product-box img {
+    margin-bottom: 20px;
+}
+
+h4.product-title {
+    margin-bottom: 0;
+}
+
+.product-box .price {
+    line-height: 40px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-cats span.category {border: 1px solid #ddd;padding: 3px 10px;font-size: 14px;border-radius: 30px;font-style: italic;letter-spacing: 1px;margin: 0 3px;}
+
+.product-cats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.msitheme-btn.bordered {
+    background: inherit;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.product-btns .msitheme-btn {display: block;margin-top: 5px;text-align: center;}
+.product-btns .msitheme-btn:hover::before {
+    width: 800px;
+}
+.product-btns {
+    display: none;
+}
+
+.shop-products ul li:hover .product-btns {
+    display: block;
+}
+
+
