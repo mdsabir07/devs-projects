@@ -855,9 +855,12 @@ ul.foo-social li a i {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
     overflow: hidden;
     transition: 0.5s;
+    border-right: 1px solid #ddd;
+}
+.msitheme-shop.button-item .shop-sidebar {
+    padding: 15px;
 }
 
 .shop-sidebar a {
@@ -932,7 +935,16 @@ ul.foo-social li a i {
     scroll-behavior: inherit;
 }
 
-.shop-products ul {position: relative;display: grid;max-width: 100%;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));grid-template-rows: minmax(100px, auto);margin: 40px;grid-auto-flow: dense;grid-gap: 10px;}
+.shop-products ul {
+    position: relative;
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: minmax(100px, auto);
+    margin: 40px 0;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+}
 
 .shop-products ul li {
     border: 1px solid #ddd;
@@ -953,7 +965,15 @@ h4.product-title {
     border-bottom: 1px solid #ddd;
 }
 
-.product-cats span.category {border: 1px solid #ddd;padding: 3px 10px;font-size: 14px;border-radius: 30px;font-style: italic;letter-spacing: 1px;margin: 0 3px;}
+.product-cats span.category {
+    border: 1px solid #ddd;
+    padding: 3px 10px;
+    font-size: 14px;
+    border-radius: 30px;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin: 0 3px;
+}
 
 .product-cats {
     display: flex;
@@ -968,7 +988,11 @@ h4.product-title {
     color: #000;
 }
 
-.product-btns .msitheme-btn {display: block;margin-top: 5px;text-align: center;}
+.product-btns .msitheme-btn {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+}
 .product-btns .msitheme-btn:hover::before {
     width: 800px;
 }
@@ -979,5 +1003,32 @@ h4.product-title {
 .shop-products ul li:hover .product-btns {
     display: block;
 }
+
+/* pagintions css */
+.msitheme-pagination ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.msitheme-pagination ul li {
+    padding: 0;
+}
+
+.msitheme-pagination ul li a {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 44px;
+    display: inline-block;
+}
+
+.msitheme-pagination ul li.current a, .msitheme-pagination ul li:hover > a {
+    background: green;
+    color: #fff !important;
+}
+
+
 
 

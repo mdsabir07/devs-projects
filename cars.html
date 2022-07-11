@@ -90,10 +90,24 @@
                 <div class="msitheme-shop">
                     <div id="shopSidebar" class="shop-sidebar">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <a href="#">About</a>
-                        <a href="#">Services</a>
-                        <a href="#">Clients</a>
-                        <a href="#">Contact</a>
+                        <form action="/action_page.php">
+                            <input type="radio" id="cars" name="fav_cars" value="Cars" checked>
+                            <label for="cars">Cars</label><br>
+                            <input type="radio" id="pickups" name="fav_cars" value="Vans & Pickups">
+                            <label for="pickups">Vans & Pickups</label><br>
+                            <input type="radio" id="vehicles" name="fav_cars" value="Future Vehicles">
+                            <label for="vehicles">Future Vehicles</label>
+                        </form>
+                        <hr>
+                        <form action="/action_page.php">
+                            <p>Select one or more vehicle types.</p>
+                            <input type="checkbox" id="SUVCrossover" name="SUVCrossover" value="Bike">
+                            <label for="SUVCrossover"> SUV & Crossover</label><br>
+                            <input type="checkbox" id="HybridElectric" name="HybridElectric" value="Car">
+                            <label for="HybridElectric"> Hybrid & Electric</label><br>
+                            <input type="checkbox" id="PeopleMovers" name="PeopleMovers" value="Boat">
+                            <label for="PeopleMovers">People Movers</label>
+                          </form>
                     </div>
 
                     <div id="shop-main">
@@ -263,6 +277,16 @@
                                     </div>
                                 </li>
                             </ul>
+                            <div class="msitheme-pagination">
+                                <ul class="paginations">
+                                    <li class="prev"><a href="javascript:void(0)"><i class="fa-solid fa-angle-left"></i></a></li>
+                                    <li class="current"><a href="javascript:void(0)">1</a></li>
+                                    <li><a href="javascript:void(0)">1</a></li>
+                                    <li><a href="javascript:void(0)">1</a></li>
+                                    <li><a href="javascript:void(0)">1</a></li>
+                                    <li class="next"><a href="javascript:void(0)"><i class="fa-solid fa-angle-right"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
