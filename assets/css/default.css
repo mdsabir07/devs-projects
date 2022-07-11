@@ -283,3 +283,68 @@ a:active {
 .msitheme-acordion .collapsible-content p { 
     margin-bottom: 0; 
 }
+/* btn css */
+.msitheme-btn {
+    position: relative;
+    display: inline-flex;
+    padding: 10px 30px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+.msitheme-btn span {
+    position: relative;
+    z-index: 1;
+}
+.msitheme-btn::before {
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: var(--x);
+    top: var(--y);
+    width: 0;
+    height: 0;
+    background-color: #000;
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s;
+}
+.msitheme-btn:hover::before {
+    height: 300px;
+    width: 500px;
+}
+.readmore-btn i {
+    height: 20px;
+    width: 20px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+
+.readmore-btn:hover i {
+    background: green;
+}
+.msitheme-btn.bordered {
+    background: inherit;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.product-btns .msitheme-btn {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+}
+.product-btns .msitheme-btn:hover::before {
+    width: 800px;
+}
+.product-btns {
+    display: none;
+}
+
+.shop-products ul li:hover .product-btns {
+    display: block;
+}

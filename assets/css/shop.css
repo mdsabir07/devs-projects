@@ -139,28 +139,6 @@ h4.product-title {
     margin: 10px 0;
 }
 
-.msitheme-btn.bordered {
-    background: inherit;
-    border: 1px solid #000;
-    color: #000;
-}
-
-.product-btns .msitheme-btn {
-    display: block;
-    margin-top: 5px;
-    text-align: center;
-}
-.product-btns .msitheme-btn:hover::before {
-    width: 800px;
-}
-.product-btns {
-    display: none;
-}
-
-.shop-products ul li:hover .product-btns {
-    display: block;
-}
-
 /* pagintions css */
 .msitheme-pagination ul {
     display: flex;
