@@ -1028,6 +1028,15 @@ h4.product-title {
     background: green;
     color: #fff !important;
 }
+.price-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
 
 
 

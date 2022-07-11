@@ -107,7 +107,13 @@
                             <label for="HybridElectric"> Hybrid & Electric</label><br>
                             <input type="checkbox" id="PeopleMovers" name="PeopleMovers" value="Boat">
                             <label for="PeopleMovers">People Movers</label>
-                          </form>
+                        </form>
+                        <hr>
+                        <form action="/action_page.php">
+                            <p>Select one or more vehicle types.</p>
+                            <input type="range" name="weight" id="range_weight" class="price-slider" value="1000" min="10000" max="60000" oninput="range_weight_disp.value = range_weight.value">
+                            <span>£</span><output id="range_weight_disp">10000</output>
+                        </form>
                     </div>
 
                     <div id="shop-main">
