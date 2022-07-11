@@ -1,0 +1,285 @@
+/* General CSS */
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+main {
+    display: block;
+}
+.container, .container-fluid {
+    margin: 0 auto;
+}
+
+.container {
+    width: 85%;
+}
+.container-fluid {
+    width: 95%;
+}
+a {
+	background-color: transparent;
+}
+b,
+strong {
+	font-weight: bold;
+}
+small {
+	font-size: 80%;
+}
+img {
+	border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+figure {
+	margin: 0 0;
+    font-family: 'Ford Antenna ExtraCond Lght';
+    font-weight: 300;
+    color: #fff;
+}
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+[hidden] {
+	display: none;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+html {
+	box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Typography
+--------------------------------------------- */
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #000000;
+    font-family: 'Ford Antenna Cond';
+    font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	font-family: 'Ford Antenna Cond';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+h1, .h1 {
+    font-size: 32px;
+    font-size: 2em;
+}
+h2, .h2 {
+    font-size: 27.8576px;
+    font-size: 1.7411em;
+}
+h3, .h3 {
+    font-size: 24.2515px;
+    font-size: 1.5157em;
+}
+h4, .h4 {
+    font-size: 21.1121px;
+    font-size: 1.3195em;
+}
+h5, .h5 {
+    font-size: 18.3792px;
+    font-size: 1.1287em;
+}
+h6, .h6 {
+    font-size: 16.3792px;
+    font-size: 1em;
+}
+p {
+	margin-bottom: 1.5em;
+	margin-top: 0;
+}
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+blockquote {
+	margin: 0 1.5em;
+}
+address {
+	margin: 0 0 1.5em;
+}
+pre {
+	background: #eee;
+	font-family: 'Ford Antenna Cond';
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+code,
+kbd,
+tt,
+var {
+	font-family: 'Ford Antenna Cond';
+}
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+big {
+	font-size: 125%;
+}
+
+/* Links
+--------------------------------------------- */
+a {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #048037;
+}
+a:focus{
+	color: #048037;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+	color: #048037 !important;
+}
+.custom-logo-link {
+	display: inline-block;
+}
+
+/* scroll to top */
+#go-top{
+    display: none;
+    font-size: 30px;
+    position: fixed;
+    bottom: 200px;
+    right: 50px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+}
+#go-top:hover {
+    background: green;
+}
+
+
+/* acordion css */
+.msitheme-acordion input[type='checkbox'] { 
+    display: none; 
+} 
+
+.msitheme-acordion .msitheme-acordion-toggle { 
+    display: block; 
+    font-size: 1.2rem; 
+    text-transform: uppercase; 
+    text-align: center; 
+    padding: 1rem; 
+    color: #fff; 
+    background: green; 
+    cursor: pointer; 
+    /* border-radius: 7px;  */
+    transition: all 0.25s ease-out; 
+} 
+.msitheme-acordion  .msitheme-acordion-toggle:hover { 
+    color: #FFF; 
+} 
+.msitheme-acordion .msitheme-acordion-toggle::after { 
+    content: ' '; 
+    display: inline-block; 
+    border-top: 5px solid transparent; 
+    border-bottom: 5px solid transparent; 
+    border-left: 5px solid currentColor; 
+    vertical-align: middle; 
+    margin-left: .7rem; 
+    transform: translateY(-2px); 
+    transition: transform .2s ease-out; 
+} 
+.msitheme-acordion .toggle:checked+.msitheme-acordion-toggle::after { 
+    transform: rotate(90deg) translateX(-3px); 
+} 
+.msitheme-acordion .collapsible-content { 
+    max-height: 0px; 
+    overflow: hidden; 
+    transition: max-height .25s ease-in-out; 
+} 
+.msitheme-acordion .toggle:checked + .msitheme-acordion-toggle + .collapsible-content { 
+    max-height: 350px; 
+} 
+.msitheme-acordion .toggle:checked+.msitheme-acordion-toggle { 
+    border-bottom-right-radius: 0; 
+    border-bottom-left-radius: 0; 
+} 
+.msitheme-acordion .collapsible-content .content-inner { 
+    background: rgba(0, 105, 255, .2); 
+    border-bottom: 1px solid rgba(0, 105, 255, .45); 
+    /* border-bottom-left-radius: 7px;  */
+    /* border-bottom-right-radius: 7px;  */
+    padding: .5rem 1rem; 
+} 
+.msitheme-acordion .collapsible-content p { 
+    margin-bottom: 0; 
+}

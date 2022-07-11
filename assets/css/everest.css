@@ -1,0 +1,7 @@
+.header-bottom.everest-b-header {
+    background: green;
+}
+
+.header-bottom.everest-b-header ul > li a {
+    color: #fff;
+}

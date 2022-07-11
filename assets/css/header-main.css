@@ -1,0 +1,122 @@
+/* Navigation
+--------------------------------------------- */
+.site-header {
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 95%;
+    z-index: 5;
+}
+.main-content {
+    margin-top: 127px;
+}
+.header-top {
+    background: #f4f4f4;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+.header-top-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
+
+.header-top-item li {
+    position: relative;
+    margin: 0 10px;
+}
+
+.header-top-item > li:after {
+    content: "";
+    height: 20px;
+    width: 2px;
+    background: #ddd;
+    position: absolute;
+    right: -10px;
+    top: 12px;
+}
+
+.navbar li ul {
+    display: none;
+}
+
+.header-top-item li:last-child:after {
+    display: none;
+}
+
+.header-top-item li a {
+    display: inline-block;
+    padding: 10px;
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header-b-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-logo img {
+    width: 120px;
+}
+
+.main-navigation.navbar > ul {
+    display: flex;
+    margin: 0;
+}
+
+.main-navigation.navbar ul li {
+    position: relative;
+}
+
+.main-navigation.navbar ul li > a {
+    display: block;
+    padding: 15px;
+    margin-left: 5px;
+}
+
+/* .main-navigation.navbar ul li ul {
+    display: none;
+} */
+
+.header-b-right ul {
+    display: flex;
+    margin: 0;
+}
+
+.header-b-right ul li a {
+    display: block;
+    padding: 15px;
+    margin-left: 5px;
+}
+
+.navbar li:hover ul {
+    display: block;
+}
+
+.navbar li ul {
+    position: absolute;
+    top: 42px;
+    width: 170px;
+    left: -42px;
+    background: #fff;
+    border: 1px solid #eee;
+    z-index: 2;
+}
+
+.navbar li ul li {
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar li ul li a {
+    padding: 6px !important;
+    display: block;
+}
