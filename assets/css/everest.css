@@ -34,8 +34,9 @@
     align-items: center;
     gap: 40px;
 }
-
-.block-list-texts h3 {}
+.content-block-list {
+    padding: 80px 0;
+}
 
 .block-list-texts h3 {
     font-size: 40px;
