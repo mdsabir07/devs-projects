@@ -28,6 +28,113 @@
     margin-top: 157px;
 }
 
+/* hero slider css */
+.single-everest-slide {
+    position: relative;
+}
+.eve-slide-btn {
+    position: absolute;
+    bottom: 110px;
+}
+
+.eve-slide-btn .msitheme-btn {
+    border-radius: 30px;
+}
+.slide-1 .eve-slide-btn {
+    right: 120px;
+}
+
+.slide-2 .eve-slide-btn {
+    left: 110px;
+}
+
+.slide-3 .eve-slide-btn {
+    bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 100px;
+}
+
+.slide-4 .eve-slide-btn {
+    bottom: 110px;
+    left: 60px;
+}
+
+.everest-hero-slider .slick-dots {
+    bottom: 55px;
+    text-align: right;
+    right: 130px;
+}
+
+.everest-hero-slider .slick-dots li button {
+    color: #fff !important;
+    font-size: 20px;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.everest-hero-slider .slick-dots li button::before {
+    display: none;
+}
+
+.everest-hero-slider .slick-dots li.slick-active button, .everest-hero-slider .slick-dots li:hover button {
+    color: green !important;
+}
+
+.everest-hero-slider .slick-dots li {
+    margin: 0 5px;
+    display: inline;
+}
+
+.everest-hero-slider .slick-arrow {
+    z-index: 2;
+    right: 110px;
+    top: auto;
+    bottom: 55px;
+}
+.everest-hero-slider .slick-dots {
+    bottom: 55px;
+    text-align: right;
+    right: 130px;
+}
+
+.everest-hero-slider .slick-dots li button {
+    color: #fff !important;
+    font-size: 20px;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.everest-hero-slider .slick-dots li button::before {
+    display: none;
+}
+
+.everest-hero-slider .slick-dots li.slick-active button, .everest-hero-slider .slick-dots li:hover button {
+    color: green !important;
+}
+
+.everest-hero-slider .slick-dots li {
+    margin: 0 5px;
+    display: inline;
+}
+
+.everest-hero-slider .slick-prev::before, .everest-hero-slider .slick-next::before {
+    font-size: 35px;
+}
+
+.everest-hero-slider .slick-prev {
+    left: auto;
+    right: 306px;
+}
+
+/* content block list css */
 .content-block-list .container-fluid {
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -338,5 +445,7 @@
 .tab-image-slider .slick-prev:before, .tab-image-slider .slick-next:before {
     font-size: 40px;
 }
+
+
 
 

@@ -2,7 +2,7 @@
     "use strict";
     // Hero slider
     $(".msitheme-slider").slick({
-        dots: false,
+        dots: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -23,7 +23,7 @@
     });
     // Everest page hero slider
     $(".everest-hero-slider").slick({
-        dots: false,
+        dots: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
