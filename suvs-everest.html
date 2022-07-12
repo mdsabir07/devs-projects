@@ -108,6 +108,22 @@
         <!-- End header -->
         <!-- Start main content -->
         <main class="main-content">
+            <!-- Start everest slider -->
+            <section class="everest-hero-slider">
+                <div class="single-everest-slide">
+                    <img src="assets/imgs/eveslide1.jpg" alt="Slider 1">
+                </div>
+                <div class="single-everest-slide">
+                    <img src="assets/imgs/eveslide2.jpg" alt="Slider 2">
+                </div>
+                <div class="single-everest-slide">
+                    <img src="assets/imgs/eveslide3.jpg" alt="Slider 3">
+                </div>
+                <div class="single-everest-slide">
+                    <img src="assets/imgs/eveslide4.jpg" alt="Slider 4">
+                </div>
+            </section>
+            <!-- End everest slider -->
             <!-- Start content block list -->
             <section class="content-block-list">
                 <div class="container-fluid">
@@ -166,6 +182,65 @@
                 </div>
             </section>
             <!-- End Ford Everest lineup -->
+            <!-- Start Color slider -->
+            <section class="color-slider">
+                <div class="section-title">
+                    <h2>EVERCONQUERING IN ANY COLOUR</h2>
+                </div>
+                <div class="color-slider-tab">
+                    <div class="tabs">
+                        <div class="tab">
+                            <input type="radio" name="css-tabs" id="tab-1" checked class="tab-switch">
+                            <label for="tab-1" class="tab-label">COLORIZER<sup>2</sup></label>
+                            <div class="tab-content">
+                                <div class="color-sliders">
+                                    <div class="color-slide">
+                                        
+                                        <div class="alta">
+                                            <div title="Lucid Red" class="color-slide-button red" id="red" onclick="redColor()">
+                                                <h4 id="title" class="">Lucid Red</h4>
+                                            </div>
+                                            <div title="Agate Black (Metallic)*" class="color-slide-button black" id="black" onclick="blackColor()">
+                                                <h4 id="title" class="">Agate Black (Metallic)*</h4>
+                                            </div>
+                                            
+                                            <div title="Moondust Silver (Metallic)*" class="color-slide-button silver" id="silver" onclick="silverColor()">
+                                                <h4 id="title" class="">Moondust Silver (Metallic)*</h4>
+                                            </div>
+                                            <div title="Sea Grey (Metallic)*" class="color-slide-button grey" id="grey" onclick="greyColor()">
+                                                <h4 id="title" class="">Sea Grey (Metallic)*</h4>
+                                            </div>
+                                            
+                                            <img id="alta" src="assets/imgs/car-red.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <input type="radio" name="css-tabs" id="tab-2" class="tab-switch">
+                            <label for="tab-2" class="tab-label">EXTERIOR<sup>3</sup></label>
+                            <div class="tab-content">
+                                <div class="tab-image-slider">
+                                    <div class="single-img-slide">
+                                        <img src="assets/imgs/bg3.jpg" alt="Slider 1">
+                                    </div>
+                                    <div class="single-img-slide">
+                                        <img src="assets/imgs/bg3.jpg" alt="Slider 2">
+                                    </div>
+                                    <div class="single-img-slide">
+                                        <img src="assets/imgs/bg7.jpg" alt="Slider 3">
+                                    </div>
+                                    <div class="single-img-slide">
+                                        <img src="assets/imgs/bg8.jpg" alt="Slider 4">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Color slider -->
             <!-- Start biggest img section -->
             <section class="biggest-img-wrap grey-bg">
                 <div class="container-fluid">
@@ -292,22 +367,6 @@
         <!-- Start Footer -->
         <footer class="site-footer everest-page-footer" id="footer">
             <div class="footer-top">
-                <!-- <div class="foo-top-left">
-                    <div class="foo-search">search form</div>
-                </div>
-                <div class="foo-top-right">
-                    <div class="foo-top-nav">
-                        <ul>
-                            <li><a href="#">Popular</a></li>
-                            <li><a href="#">Fiesta</a></li>
-                            <li><a href="#">Mustang</a></li>
-                            <li><a href="#">Edge</a></li>
-                            <li><a href="#">Kuga</a></li>
-                            <li><a href="#">ST-Line</a></li>
-                            <li><a href="#">Technology</a></li>
-                        </ul>
-                    </div>
-                </div> -->
             </div>
             <div class="footer-mid">
                 <div class="container">
@@ -440,5 +499,23 @@
     <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script>
+        let alta = document.getElementById('alta');
+        function redColor() {
+            alta.src='assets/imgs/car-red.jpg';
+        }
+
+        function blackColor() {
+            alta.src='assets/imgs/car-black.jpg';
+        }
+        function silverColor() {
+            alta.src='assets/imgs/car-Silver.jpg';
+        }
+
+        function greyColor() {
+            alta.src= 'assets/imgs/car-grey.jpg';
+        }
+        
+    </script>
 </body>
 </html>

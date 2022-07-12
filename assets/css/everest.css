@@ -179,3 +179,164 @@
     padding: 80px;
     margin: 70px 0 30px;
 }
+
+/* color slider  */
+/* Tab CSS */
+.color-slider-tab {
+    width: 100%;
+}
+.tabs {
+    position: relative;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.tabs::before,
+.tabs::after {
+    content: "";
+    display: table;
+}
+.tabs::after {
+    clear: both;
+}
+.tab {
+    float: left;
+}
+.tab-switch {
+    display: none;
+}
+.tab-label {
+    position: relative;
+    display: block;
+    height: 3em;
+    padding: 0px 1.618em;
+    cursor: pointer;
+    top: 0px;
+    transition: all 0.25s ease 0s;
+    font-size: 25px;
+}
+.tab-label:hover {
+    top: -0.25rem;
+    transition: top 0.25s;
+}
+.tab-content {
+    height: 12rem;
+    position: absolute;
+    z-index: 1;
+    top: 2.75em;
+    left: 0;
+    background: #fff;
+    color: #2c3e50;
+    opacity: 0;
+    transition: all 0.35s;
+    width: 100%;
+}
+.tab-switch:checked + .tab-label {
+    background: #fff;
+    color: #2c3e50;
+    border-bottom: 0;
+    border-right: 0.125rem solid #fff;
+    transition: all 0.35s;
+    z-index: 1;
+    top: -0.0625rem;
+}
+.tab-switch:checked + label + .tab-content {
+    z-index: 2;
+    opacity: 1;
+    transition: all 0.35s;
+}
+
+/* slider css */
+/* sections */
+.color-slider {
+    padding: 80px 0 150px;
+    overflow: hidden;
+}
+.color-slide-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    bottom: -30px;
+}
+.alta {
+    height: 550px;
+    position: relative;
+}
+.color-slide-button:hover {
+   transform: scale(1.1);
+   transition: all 1s ease;
+}
+.red {
+   background: #C10016;
+}
+.black {
+   background: black;
+   left: 49% !important;
+}
+.silver {
+   background: #F1F1F3;
+   left: 53% !important;
+}
+.grey {
+   background: #BABBBF;
+   left: 57% !important;
+}
+/* text-styling */
+.color-sliders {
+    position: relative;
+}
+/* image */
+.alta img {
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+}
+#alta img {
+    transition: all 1s ease;
+}
+.color-slide-button.selected h4 {
+    display: block;
+}
+
+.color-slide-button h4 {
+    display: none;
+    width: 500px !important;
+    color: red;
+    position: absolute;
+    z-index: 2;
+    top: -500px;
+    left: 0;
+    text-align: right;
+    font-size: 50px;
+}
+.color-slide-button {
+    left: 45%;
+    margin-left: -25px;
+}
+
+.tab-image-slider .slick-arrow {
+    position: absolute;
+    top: 35%;
+    z-index: 1;
+}
+
+.tab-image-slider .slick-next {
+    right: 50px;
+}
+
+.tab-image-slider .slick-prev {
+    right: auto;
+    left: 50px;
+}
+.tab-image-slider .slick-prev:before, .tab-image-slider .slick-next:before {
+    font-size: 40px;
+}
+
+

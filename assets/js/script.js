@@ -2,12 +2,34 @@
     "use strict";
     // Hero slider
     $(".msitheme-slider").slick({
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        speed: 3000
+    });
+
+    // Tab image slider
+    $(".tab-image-slider").slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        speed: 3000
+    });
+    // Everest page hero slider
+    $(".everest-hero-slider").slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed: 3000,
     });
 
     // Filtering
@@ -78,6 +100,5 @@
         btn.style.setProperty('--x', x + 'px');
         btn.style.setProperty('--y', y + 'px');
     }
-    
 
 })(jQuery);
