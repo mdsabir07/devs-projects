@@ -451,11 +451,11 @@
 }
 
 /* lightbox gallery css */
-.popup-gallery img {
+.lightbox-galleries img {
     width: 100%;
 }
 
-.popup-gallery {
+.lightbox-galleries {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;

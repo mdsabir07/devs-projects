@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/default.css">
     <link rel="stylesheet" href="assets/css/footer-main.css">
     <link rel="stylesheet" href="assets/css/header-main.css">
+    <link rel="stylesheet" href="assets/css/go-electric.css">
 </head>
 <body>
     <div class="site-content">
@@ -94,7 +95,89 @@
             <!-- End header -->
             <!-- Start main content -->
             <main class="main-content">
+                <!-- Start hero section -->
+                <section class="hero-img-wrap">
+                    <div class="hero-img-nav">
+                        <button onclick="msithemeFunction()">MOTOR SHOWS & EVENTS <i class="fa-solid fa-angle-down"></i></button>
 
+                        <ul id="toggleMenuItem">
+                            <li><a href="javascript:voip(0)">Overview</a></li>
+                            <li><a href="javascript:voip(0)">Event</a></li>
+                            <li><a href="javascript:voip(0)">Go Electric Roadshow</a></li>
+                        </ul>
+                        
+                    </div>
+                    <img src="assets/imgs/go-eletric.jpg" alt="">
+                </section>
+                <!-- End hero section -->
+                <!-- Start content section -->
+                <section class="content-section section-padding">
+                    <div class="container">
+                        <div class="content-inner">
+                            How far will it go?<br>
+                            How will I charge it?<br>
+                            Is it quick?<br>
+                            Is it powerful?<br>
+                            Can I take it through a car wash?<br>
+                            Is it really noisy?<br>
+                            Where do you plug it in?<br>
+                            <br><br>
+                            We know that you’ve probably got lots of questions about electrified vehicles, and maybe even some doubts in your head about whether they’re right for you.<br><br>
+                            That’s why we’ve created the Ford Go Electric Roadshow.<br><br>
+                            We’ve tried to design it for everyone. Join us to find out more about electrified vehicles, and how you can reduce your CO2 emissions and your motoring running costs.<br><br>
+                            Learn how to plug in and charge and discover our interactive experiences that visualise the future of your area’s Clean Air Zones.<br><br>
+                            And then let us help you to understand the differences between Mild Hybrid, Full Hybrid, Plug-In Hybrid and Full Electric vehicles, and which one of them might be the most suitable for you in your daily life.<br><br>
+                            At some venues we’ll have the opportunity to test drive the vehicles, or we can arrange a test drive with your local dealer at a time that’s convenient to you.<br><br>
+                            We have two roadshows – a “big truck” which will spend most of its time at retail shopping centres and larger public shows and events; and a smaller unit which contains more detail for our Small Business and Commercial Vehicle customers. But rest assured, whichever event you go to you’ll be able to discover a wealth of information and speak to our trained Go Electric teams. Of course, everything we do will be fully compliant with all relevant government COVID measures, advice and restrictions.<br><br>
+                            We look forward to seeing you at a Go Electric Roadshow event very soon! For the full calendar of events please <a href="javascript:voip(0)">click here.</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- End content section -->
+                <!-- Start content block -->
+                <section class="content-block grey-bg section-padding">
+                    <div class="container">
+                        <div class="content-block-grid">
+                            <div class="grid-item">
+                                <img src="assets/imgs/background.jpg" alt="background">
+                            </div>
+                            <div class="grid-item">
+                                <div class="grid-text">
+                                    <h2>Smart Vehicles for a Smart World</h2>
+                                    <p>We believe in making freedom of movement accessible to all, so the ongoing drive to phase out all fossil fuel vehicles puts us at the forefront of answering the inevitable demand for clean mobility.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="content-block section-padding">
+                    <div class="container">
+                        <div class="content-block-grid">
+                            <div class="grid-item">
+                                <div class="grid-text">
+                                    <h2>Towards Zero Emissions</h2>
+                                    <p>We’re ready to meet the demands of our age and revolutionise motoring. Whatever your driving needs, Ford have announced the commitment to go All-In on electrification. By electrifying our entire range, we're not just imagining what tomorrow will look like, we're already building it. By 2030 all our passenger vehicles in Europe will be electric, and two-thirds of our Commercial Vehicles will be either plug-in hybrid or electric. So, whether you need a Ford for work, play, or everything in between, you'll have the power to choose the right EV for you.</p>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <img src="assets/imgs/car-next-gen.jpg" alt="background">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End content block -->
+                <div class="next-gen-list">
+                    <div class="container">
+                        <div class="next-gen-item">
+                            <div class="next-gen-icon"><i class="fa-solid fa-book"></i></div>
+                            <h3><a href="javascript:voip(0)">Event</a></h3>
+                        </div>
+                        <div class="next-gen-item">
+                            <div class="next-gen-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <h3><a href="javascript:voip(0)">Keep Me Informed about Mach-E</a></h3>
+                        </div>
+                    </div>
+                </div>
                 <!-- Start collabsible section -->
                 <section class="msitheme-acordion">
                     <div class="wrap-collabsible">
@@ -265,5 +348,15 @@
     <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script>
+        function msithemeFunction() {
+        var x = document.getElementById("toggleMenuItem");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+    </script>
 </body>
 </html>

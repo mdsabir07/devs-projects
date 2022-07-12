@@ -104,7 +104,7 @@
 
     // lightbox gallery
     $(document).ready(function() {
-        $('.popup-gallery').magnificPopup({
+        $('.lightbox-galleries').magnificPopup({
             delegate: 'a',
             type: 'image',
             tLoading: 'Loading image #%curr%...',
@@ -122,4 +122,13 @@
             }
         });
     });
+    // toggle for go event 
+    // function msithemeFunction() {
+    //     var x = document.getElementById("toggleMenuItem");
+    //     if (x.style.display === "none") {
+    //         x.style.display = "block";
+    //     } else {
+    //         x.style.display = "none";
+    //     }
+    // }
 })(jQuery);
