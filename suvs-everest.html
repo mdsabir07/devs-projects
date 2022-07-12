@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/fonts/fonts.css">
     <link rel="stylesheet" href="assets/css/default.css">
     <link rel="stylesheet" href="assets/css/footer-main.css">
@@ -272,6 +273,27 @@
                 </div>
             </section>
             <!-- End biggest img section -->
+            <!-- Start lightbox gallery -->
+            <section class="lightbox-gallery">
+                <div class="container-fluid">
+                    <div class="section-title">
+                        <h2>Everything Everest, and more...</h2>
+                    </div>
+                    <div class="galleries">
+                        <div class="popup-gallery">
+                            <a href="assets/imgs/car-black.jpg" title="The Cleaner"><img src="assets/imgs/car-black.jpg" width="24.5%" height="300"></a>
+                            <a href="assets/imgs/car-red.jpg" title="Winter Dance"><img src="assets/imgs/car-red.jpg" width="24.5%" height="300"></a>
+                            <a href="assets/imgs/car-Silver.jpg" title="The Uninvited Guest"><img src="assets/imgs/car-Silver.jpg" width="24.5%" height="300"></a>
+                            <a href="assets/imgs/car-grey.jpg" title="Oh no, not again!"><img src="assets/imgs/car-grey.jpg" width="24.5%" height="300"></a>
+                            <a href="assets/imgs/car-driver.jpg" title="Swan Lake"><img src="assets/imgs/car-driver.jpg" width="24.5%" height="300"></a>
+                            <a href="assets/imgs/car-copper-red.jpg" title="The Shake"><img src="assets/imgs/car-copper-red.jpg" width="24.5%" height="300"></a>
+                            <a href="assets/imgs/car-black.jpg" title="Who's that, mommy?"><img src="assets/imgs/car-black.jpg" width="24.5%" height="300"></a>
+                            <a href="assets/imgs/car-red.jpg" title="Winter Dance"><img src="assets/imgs/car-red.jpg" width="24.5%" height="300"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End lightbox gallery -->
             <!-- Start image block -->
             <section class="image-block-wrap">
                 <div class="container-fluid">
@@ -514,6 +536,7 @@
     </div>
     <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script>
         let alta = document.getElementById('alta');
@@ -531,7 +554,6 @@
         function greyColor() {
             alta.src= 'assets/imgs/car-grey.jpg';
         }
-        
     </script>
 </body>
 </html>

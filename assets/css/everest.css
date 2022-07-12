@@ -450,6 +450,15 @@
     font-size: 40px;
 }
 
+/* lightbox gallery css */
+.popup-gallery img {
+    width: 100%;
+}
 
+.popup-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
 
 
