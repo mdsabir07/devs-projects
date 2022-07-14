@@ -1,7 +1,10 @@
 .header-bottom.everest-b-header {
     background: #00035F;
 }
-
+.everest .site-header {
+    border-right: none;
+    border-left: none;
+}
 .header-bottom.everest-b-header ul > li a {
     color: #fff;
 }
@@ -21,11 +24,9 @@
     border-right: none;
     border-left: none;
 }
-.everest .site-header {
-    width: 100%;
-}
+
 .everest .main-content {
-    margin-top: 157px;
+    margin-top: 164px;
 }
 
 /* hero slider css */
