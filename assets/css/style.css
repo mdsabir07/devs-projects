@@ -1,10 +1,10 @@
 
 
 /* slider css */
-.slider-single-item img {
+/* .slider-single-item img {
     height: 100vh;
     object-fit: cover;
-}
+} */
 .slick-slide img {
   width: 100%;
 }
@@ -182,9 +182,7 @@
     line-height: 40px;
     border-radius: 50%;
     background: #00045C;
-    top: -200px;
-    cursor: pointer;
-    transition: 30s;
+    top: -40px;
 }
 
 .cta-content, .cta-content a {
