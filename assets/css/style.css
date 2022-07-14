@@ -166,6 +166,25 @@
 /* CTA CSS */
 .msitheme-cta {
     background: #222A33;
+    position: relative;
+}
+#ScrollToBottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #00045C;
+    top: -200px;
+    cursor: pointer;
+    transition: 30s;
 }
 
 .cta-content, .cta-content a {
