@@ -1,35 +1,4 @@
-ul#toggleMenuItem {
-    display: none;
-    position: absolute;
-    padding: 10px 15px 0;
-    background: #eee;
-    width: 100%;
-}
-.hero-img-nav {
-    position: relative;
-    width: 25%;
-}
 
-.hero-img-nav button {
-    background: green;
-    border: 1px solid green;
-    color: #fff;
-    padding: 15px 21px;
-    font-size: 25px;
-}
-
-.hero-img-nav button i {
-    padding-left: 30px;
-}
-
-ul#toggleMenuItem li {
-    border-bottom: 2px solid #ddd;
-}
-
-ul#toggleMenuItem li a {
-    padding: 5px;
-    display: block;
-}
 .content-inner {
     font-size: 22px;
 }
@@ -72,4 +41,38 @@ ul#toggleMenuItem li a {
 .next-gen-list {
     background: #1B394E;
     padding: 80px;
- 
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-img-wrap {
+        margin-top: 260px;
+    }
+    .hero-img-nav {
+        width: 100%;
+    }
+    .hero-img-nav button {
+        padding: 5px 15px;
+        font-size: 20px;
+        width: 100%;
+    }
+    .content-block-grid {
+        grid-template-columns: 1fr;
+    }
+    .grid-text h2 {
+        font-size: 30px;
+    }
+    .grid-text {
+        text-align: justify;
+    }
+    .next-gen-list {
+        padding: 40px 0;
+    }
+    .next-gen-item h3 {
+        font-size: 25px;
+    }
+    .next-gen-list .container {
+        width: 95%;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

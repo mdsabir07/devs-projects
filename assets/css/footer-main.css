@@ -10,7 +10,15 @@
 .site-footer a {
     color: #a8a8a8;
 }
-
+.foo-search input[type="text"] {
+    width: 93%;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+}
 .foo-top-nav ul {
     display: flex;
     justify-content: flex-end;
@@ -90,4 +98,44 @@ ul.foo-social li a i {
     text-align: center;
     color: #fff;
     margin-left: 10px;
+}
+@media only screen and (max-width: 767px) {
+    .footer-top {
+        padding: 15px;
+    }
+    .foo-top-nav ul, ul.cpr-nav  {
+        text-align: center;
+    }
+    .foo-top-nav ul li, ul.cpr-nav li {
+        display: inline-block;
+    }
+    .foo-top-nav ul li a, ul.cpr-nav li a {
+        padding: 5px;
+    }
+    .footer-mid .mid-row {
+        grid-template-columns: 2fr 2fr;
+        gap: 20px 10px;
+    }
+    .footer-mid h5 {
+        margin-bottom: 5px;
+    }
+    .footer-bottom {
+        gap: 15px;
+        align-items: center;
+    }
+    .copyright-wrap, .footer-bottom {
+        padding: 15px 20px;
+    }
+    .cpr-left, .copyright-wrap, .footer-bottom {
+        flex-direction: column;
+    }
+    ul.cpr-nav, .foo-top-nav ul, .footer-top {
+        display: block;
+    }
+    ul.cpr-nav li a {
+        margin-top: 5px;
+    }
+    .cpr-right {
+        margin-top: 10px;
+    }
 }

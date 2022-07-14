@@ -58,43 +58,34 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="header-b-right">
-                            <ul class="header-top-item navbar">
-                                <li><i class="fa-solid fa-user"></i>
-                                    <i class="fa-solid fa-angle-down"></i>
-                                    <div class="main-navigation">
-                                        <ul>
-                                            <li><a href="#">Find a Dealer 1</a></li>
-                                            <li><a href="#">Find a Dealer 2</a></li>
-                                            <li><a href="#">Find a Dealer 3</a></li>
-                                            <li><a href="#">Find a Dealer 4</a></li>
-                                            <li><a href="#">Find a Dealer 5</a></li>
-                                            <li><a href="#">Find a Dealer 6</a></li>
-                                            <li><a href="#">Find a Dealer 7</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
+                        <div class="header-right">
+                            <div class="hero-img-nav SubsOneToggle">
+                                <button onclick="msithemeSubsOneFunction()"><i class="fa-solid fa-user"></i>
+                                    <i class="fa-solid fa-angle-down"></i></button>
+                                <ul id="toggleMenuItemOne">
+                                    <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Build & Price</a></li>
+                                    <li><a href="javascript:voip(0)"><i class="fa-solid fa-map-marker"></i> Locate Dealer</a></li>
+                                    <li><a href="javascript:voip(0)"><i class="fa-solid fa-home"></i> Download Brochure</a></li>
+                                    <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Latest Offers</a></li>
+                                    <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Book A Test Drive</a></li>
+                                    <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Request A Quote</a></li>
+                                    <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Ask Ford</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="header-bottom everest-b-header">
-                    <div class="header-b-left">
-                        <ul class="header-top-item navbar">
-                            <li><i class="fa-solid fa-angle-down"></i>
-                                <a href="#">Explore Everest</a>
-                                <div class="main-navigation">
-                                    <ul>
-                                        <li><a href="#">Find a Dealer 1</a></li>
-                                        <li><a href="#">Find a Dealer 2</a></li>
-                                        <li><a href="#">Find a Dealer 3</a></li>
-                                        <li><a href="#">Find a Dealer 4</a></li>
-                                        <li><a href="#">Find a Dealer 5</a></li>
-                                        <li><a href="#">Find a Dealer 6</a></li>
-                                        <li><a href="#">Find a Dealer 7</a></li>
-                                    </ul>
-                                </div>
-                            </li>
+                    <div class="hero-img-nav SubsTwoToggle">
+                        <button onclick="msithemeSubsTwoFunction()"><i class="fa-solid fa-angle-down"></i> Explore <b>EVEREST</b></button>
+                        <ul id="toggleMenuItemTwo">
+                            <li><a href="javascript:voip(0)">Overview</a></li>
+                            <li><a href="javascript:voip(0)">Event</a></li>
+                            <li><a href="javascript:voip(0)">Go Electric Roadshow</a></li>
+                            <li><a href="javascript:voip(0)">Go Electric Roadshow</a></li>
+                            <li><a href="javascript:voip(0)">Go Electric Roadshow</a></li>
+                            <li><a href="javascript:voip(0)">Go Electric Roadshow</a></li>
+                            <li><a href="javascript:voip(0)">Go Electric Roadshow</a></li>
                         </ul>
                     </div>
                     <div class="header-b-right">
@@ -142,7 +133,7 @@
             </section>
             <!-- End everest slider -->
             <!-- Start content block list -->
-            <section class="content-block-list">
+            <section class="content-block-list section-padding">
                 <div class="container-fluid">
                     <div class="block-list-texts">
                         <h3>The Forever Conquering Everest range is now connected with FordPass Connect.</h3>
@@ -274,7 +265,7 @@
             </section>
             <!-- End biggest img section -->
             <!-- Start lightbox gallery -->
-            <section class="lightbox-gallery">
+            <section class="lightbox-gallery section-padding">
                 <div class="container-fluid">
                     <div class="section-title">
                         <h2>Everything Everest, and more...</h2>
@@ -295,7 +286,7 @@
             </section>
             <!-- End lightbox gallery -->
             <!-- Start image block -->
-            <section class="image-block-wrap">
+            <section class="image-block-wrap section-padding">
                 <div class="container-fluid">
                     <div class="img-blocks">
                         <div class="image-block-box">
@@ -553,6 +544,26 @@
 
         function greyColor() {
             alta.src= 'assets/imgs/car-grey.jpg';
+        }
+
+        // Tooggle nav1
+        function msithemeSubsOneFunction() {
+            var x = document.getElementById("toggleMenuItemOne");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        // Tooggle nav2
+        function msithemeSubsTwoFunction() {
+            var x = document.getElementById("toggleMenuItemTwo");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
         }
     </script>
 </body>

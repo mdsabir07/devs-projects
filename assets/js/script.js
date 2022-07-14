@@ -6,7 +6,7 @@
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         speed: 3000
     });
@@ -27,7 +27,7 @@
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         speed: 3000,
     });
@@ -55,7 +55,32 @@
         slidesToScroll: 6,
         autoplay: false,
         autoplaySpeed: 2000,
-        speed: 3000
+        speed: 3000,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
     });
 
     // Scroll to top
@@ -122,13 +147,5 @@
             }
         });
     });
-    // toggle for go event 
-    // function msithemeFunction() {
-    //     var x = document.getElementById("toggleMenuItem");
-    //     if (x.style.display === "none") {
-    //         x.style.display = "block";
-    //     } else {
-    //         x.style.display = "none";
-    //     }
-    // }
+ 
 })(jQuery);

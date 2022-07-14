@@ -141,9 +141,6 @@
     align-items: center;
     gap: 40px;
 }
-.content-block-list {
-    padding: 80px 0;
-}
 
 .block-list-texts h3 {
     font-size: 40px;
@@ -227,10 +224,6 @@
 
 .image-block-wrap .container-fluid {
     text-align: center;
-}
-
-.image-block-wrap {
-    padding: 80px 0;
 }
 
 .image-block-texts {
@@ -462,3 +455,147 @@
 }
 
 
+
+
+@media only screen and (max-width: 767px) {
+    .single-everest-slide img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .everest-hero-slider .slick-dots {
+        bottom: 20px;
+        right: 175px;
+    }
+    .everest-hero-slider .slick-arrow {
+        right: 160px;
+        bottom: 20px;
+    }
+    .everest-hero-slider .slick-prev {
+        left: 10px;
+        right: auto;
+    }
+    .slide-1 .eve-slide-btn {
+        right: 50px;
+        bottom: 65px;
+    }
+    .slide-2 .eve-slide-btn {
+        left: 25px;
+        bottom: 60px;
+    }
+    .slide-3 .eve-slide-btn {
+        bottom: 60px;
+        flex-direction: inherit;
+        left: 15px;
+    }
+    .slide-4 .eve-slide-btn {
+        bottom: 60px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .block-list-texts h3 {
+        font-size: 25px;
+    }
+    .content-block-list .container-fluid {
+        gap: 20px;
+        text-align: justify;
+    }
+    .everest-lineup-img-block, .content-block-list .container-fluid {
+        grid-template-columns: 1fr;
+    }
+    .img-block-texts {
+        font-size: 16px;
+    }
+    .tab-label {
+        font-size: 20px;
+    }
+    .tab-content {
+        top: 1.75em;
+    }
+    .alta {
+        height: 320px;
+    }
+    .silver {
+        left: 59% !important;
+    }
+    .grey {
+        left: 73% !important;
+    }
+    .black {
+        left: 44% !important;
+    }
+    .color-slide-button {
+        left: 30%;
+    }
+    .tab-image-slider .slick-arrow {
+        top: 80%;
+    }
+    .tab-image-slider .slick-prev {
+        left: 20px;
+    }
+    .color-slider {
+        padding: 40px 0 0;
+    }
+    .tabs {
+        height: 400px;
+    }
+    .panorama-absolute-img img {
+        width: 50px;
+    }
+    .lightbox-galleries {
+        grid-template-columns: 1fr 1fr;
+    }
+    .img-blocks {
+        grid-template-columns: 1fr;
+    }
+    .image-block-box img {
+        height: auto;
+    }
+    .image-block-texts h3 {
+        font-size: 25px;
+    }
+    .everest main {
+        font-size: 16px;
+    }
+    .img-and-text {
+        padding: 30px 0;
+    }
+    .biggest-img-text p br {
+        display: none;
+    }
+    .dark-blue {
+        padding: 40px 0;
+    }
+    .next-gen-btn {
+        left: 0;
+        margin-left: 0;
+        top: 20px;
+        right: 0;
+        text-align: center;
+    }
+    .next-gen-list {
+        padding: 20px 0;
+        margin: 45px 0 0;
+    }
+    .next-gen-list .container {
+        width: 95%;
+    }
+    .next-gen-icon i {
+        font-size: 16px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+    .next-gen-item h3 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .everest-page .header-b-right {
+        display: none;
+    }
+    .header-bottom.everest-b-header {
+        display: block;
+    }
+    
+    
+}

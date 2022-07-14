@@ -172,3 +172,40 @@ h4.product-title {
     -webkit-transition: .2s;
     transition: opacity .2s;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .msitheme-shop {
+        top: 130px;
+    }
+    .shop-products ul {
+        grid-template-columns: 1fr 1fr;
+    }
+    .shop-products ul li {
+        padding: 5px;
+    }
+    .product-box {
+        text-align: center;
+    }
+    .product-box img {
+        margin-bottom: 10px;
+    }
+    .product-box .price {
+        line-height: 25px;
+    }
+    .product-cats, .product-cats span.category {
+        display: block;
+    }
+    .product-cats span.category {
+        margin: 5px 0;
+    }
+    .shop-header h1 {
+        opacity: 0;
+    }
+    .openbtn {
+        font-size: 30px;
+        padding: 0px 15px;
+        position: absolute;
+        z-index: 1;
+    }
+}

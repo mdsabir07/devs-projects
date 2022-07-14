@@ -358,3 +358,142 @@ a:active {
 .shop-products ul li:hover .product-btns {
     display: block;
 }
+
+/* tooggle CSS   */
+ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo {
+    display: none;
+    position: absolute;
+    padding: 10px 15px 0;
+    background: #eee;
+    width: 100%;
+}
+.hero-img-nav {
+    position: relative;
+    width: 25%;
+}
+
+.hero-img-nav button {
+    background: green;
+    border: 1px solid green;
+    color: #fff;
+    padding: 15px 21px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.hero-img-nav button i {
+    padding-left: 30px;
+}
+
+ul#toggleMenuItem li, ul#toggleMenuItemOne li, #toggleMenuItemTwo li {
+    border-bottom: 2px solid #ddd;
+}
+
+ul#toggleMenuItem li a, ul#toggleMenuItemOne li a, #toggleMenuItemTwo li a {
+    padding: 5px;
+    display: block;
+}
+#toggleMenuItemTwo li a {
+    color: #000;
+}
+.hero-img-nav.SubsOneToggle button {
+    background: transparent;
+    border: 1px solid transparent;
+    color: #000;
+    padding: 0 0;
+    font-size: 16px;
+}
+#toggleMenuItemTwo {
+    top: 80px;
+    right: 20px;
+}
+.hero-img-nav.SubsTwoToggle button i {
+    padding-left: 0;
+    margin-right: 5px;
+}
+.hero-img-nav.SubsOneToggle {
+    width: auto;
+}
+.hero-img-nav.SubsOneToggle button i {
+    padding-left: 5px;
+}
+
+ul#toggleMenuItemOne {
+    padding: 10px 0 0;
+    width: 400px;
+    right: 0;
+    top: 54px;
+}
+
+ul#toggleMenuItemOne li {
+    border: inherit;
+    display: inline-block;
+    width: 32.7%;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+ul#toggleMenuItemOne li a i {
+    display: block;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+    background: green;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .msitheme-btn {
+        padding: 7px 15px;
+    }
+    
+    .product-btns .msitheme-btn {
+        padding: 5px 5px;
+    }
+    .grey-bg {
+        padding: 30px 0 !important;
+    }
+    .grey-bg h2 {
+        font-size: 25px !important;
+        line-height: 25px !important;
+        margin-bottom: 10px !important;
+    }
+    .grey-bg .sub-title {
+        font-size: 20px !important;
+    }
+    .section-padding {
+        padding: 40px 0;
+    }
+    .content-inner {
+        font-size: 16px;
+    }
+    .SubsTwoToggle button {
+        padding: 5px 0;
+        font-size: 20px;
+        width: 100%;
+    }
+ 
+    #toggleMenuItemTwo {
+        top: 53px;
+        width: 229px;
+        right: auto;
+        left: -20px;
+    }
+    ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo {
+        padding: 5px 8px 0;
+    }
+    .section-title h2 {
+        font-size: 25px !important;
+        margin-bottom: 20px !important;
+    }
+    .hero-img-nav.SubsTwoToggle {
+        width: 100%;
+    }
+
+}
