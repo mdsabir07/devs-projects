@@ -1,5 +1,5 @@
 .header-bottom.everest-b-header {
-    background: green;
+    background: #00035F;
 }
 
 .header-bottom.everest-b-header ul > li a {
@@ -82,7 +82,7 @@
 }
 
 .everest-hero-slider .slick-dots li.slick-active button, .everest-hero-slider .slick-dots li:hover button {
-    color: green !important;
+    color: #00035F !important;
 }
 
 .everest-hero-slider .slick-dots li {
@@ -117,7 +117,7 @@
 }
 
 .everest-hero-slider .slick-dots li.slick-active button, .everest-hero-slider .slick-dots li:hover button {
-    color: green !important;
+    color: #00035F !important;
 }
 
 .everest-hero-slider .slick-dots li {

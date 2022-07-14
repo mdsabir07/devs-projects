@@ -1,15 +1,16 @@
 /* Navigation
 --------------------------------------------- */
 .site-header {
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
     background: #fff;
     position: fixed;
     top: 0;
     width: 95%;
     z-index: 5;
+    border-top: none;
 }
 .main-content {
-    margin-top: 127px;
+    margin-top: 118px;
 }
 .header-top {
     background: #f4f4f4;
@@ -32,11 +33,25 @@
 .header-top-item > li:after {
     content: "";
     height: 20px;
-    width: 2px;
+    width: 1px;
     background: #ddd;
     position: absolute;
     right: -10px;
     top: 12px;
+}
+
+.header-top-item li.user-login a.login {
+    margin-right: -17px;
+}
+
+.header-top-item li.user-login i.fa-user {
+    border: 1px solid #ccc;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-right: -10px;
 }
 
 .navbar li ul {

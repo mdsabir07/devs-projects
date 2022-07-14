@@ -15,10 +15,20 @@
     padding: 8px;
     background: transparent;
     border: none;
-    color: #fff;
     outline: none;
     font-size: 18px;
 }
+
+.foo-search input[type="text"]::placeholder, .foo-search button, .foo-search input[type="text"] {
+    color: #fff;
+}
+
+.foo-search button {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+}
+
 .foo-top-nav ul {
     display: flex;
     justify-content: flex-end;
@@ -137,5 +147,11 @@ ul.foo-social li a i {
     }
     .cpr-right {
         margin-top: 10px;
+    }
+    .foo-search input[type="text"] {
+        width: 89%;
+    }
+    .foo-top-left {
+        margin-bottom: 10px;
     }
 }

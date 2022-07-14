@@ -82,9 +82,9 @@
 }
 
 .shop-header select {
-    border: 1px solid green;
+    border: 1px solid #00035F;
     height: 50px;
-    color: green;
+    color: #00035F;
 }
 
 .shop-header select option {
@@ -160,7 +160,7 @@ h4.product-title {
 }
 
 .msitheme-pagination ul li.current a, .msitheme-pagination ul li:hover > a {
-    background: green;
+    background: #00035F;
     color: #fff !important;
 }
 .price-slider {
