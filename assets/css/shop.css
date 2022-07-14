@@ -96,11 +96,11 @@
     position: relative;
     display: grid;
     max-width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: minmax(100px, auto);
-    margin: 40px 0;
+    margin: 40px 0px;
     grid-auto-flow: dense;
-    grid-gap: 10px;
+    gap: 10px;
 }
 
 .shop-products ul li {
@@ -110,6 +110,8 @@
 
 .product-box img {
     margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
 }
 
 h4.product-title {
