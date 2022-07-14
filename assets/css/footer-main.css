@@ -8,7 +8,10 @@
 }
 
 .site-footer a {
-    color: #a8a8a8;
+    color: #a8a8a8 !important;
+}
+.site-footer a:hover {
+    color: #008cba;
 }
 .foo-search input[type="text"] {
     width: 93%;
