@@ -307,6 +307,13 @@
     margin-left: -20px;
     margin-bottom: 0;
 }
+.msitheme-filters .slick-prev:before, .msitheme-filters .slick-next:before {
+    font-size: 40px;
+}
+
+.msitheme-filters .slick-prev {
+    left: -40px;
+}
 
 @media only screen and (max-width: 767px) {
     .msitheme-filters {
