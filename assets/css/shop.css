@@ -104,8 +104,11 @@
 }
 
 .shop-products ul li {
-    border: 1px solid #ddd;
+    border: 1px solid transparent;
     padding: 10px;
+}
+.shop-products ul li:hover {
+    border: 1px solid #eee;
 }
 
 .product-box img {
