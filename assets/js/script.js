@@ -51,8 +51,8 @@
     $(".msitheme-filter").slick({
         dots: false,
         infinite: true,
-        slidesToShow: 6,
-        slidesToScroll: 6,
+        slidesToShow: 5,
+        slidesToScroll: 5,
         autoplay: false,
         autoplaySpeed: 2000,
         speed: 3000,

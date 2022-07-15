@@ -261,7 +261,6 @@
 
 .msitheme-filters ul li {
     list-style: none;
-    background: #eee;
     padding: 8px 20px;
     margin: 5px;
     letter-spacing: 1px;
@@ -269,8 +268,7 @@
 }
 
 .msitheme-filters ul li.active {
-    background: #0276B3;
-    color: #fff;
+    color: #0276B3;
 }
 
 .msitheme-filter {
@@ -278,6 +276,7 @@
     flex-wrap: wrap;
     width: 95%;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 .msitheme-filter .itemBx {
