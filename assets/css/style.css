@@ -128,7 +128,8 @@
 
 @media only screen and (max-width: 767px) {
     .slider-single-item img {
-        height: 500px;
+        height: 360px;
+        object-fit: cover;
     }
     .slider-content {
         top: 160px;
