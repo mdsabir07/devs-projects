@@ -182,6 +182,9 @@
     width: 120px;
     display: block;
 }
+.everest .msitheme-dropdown-content {
+    top: 65px;
+}
 .megamenu-column h3 {
     border-bottom: 1px solid #aaa;
 }
