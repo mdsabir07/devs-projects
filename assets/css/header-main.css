@@ -216,11 +216,88 @@
         width: 100%;
         height: auto;
     }
-    .desktop-menus {
+    .desktop-menus, .header-top-item > li:after {
         display: none;
     }
     .responsive-menus {
         display: block;
     }
+    .mobile-navs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .site-header {
+        border: none;
+        padding: 10px;
+    }
+    
+    .mobile-navs button {
+        border: none;
+        background: transparent;
+    }
+    
+    .mobile-navs button i.fa-bars {
+        font-size: 25px;
+        color: #008cba;
+        cursor: pointer;
+    }
+    
+    .mobile-users li a i {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        border: 1px solid #008cba;
+        text-align: center;
+        color: #008cba;
+        border-radius: 50%;
+    }
+    .main-content {
+        margin-top: 70px;
+    }
+    #toggleMobileMenu {
+        top: 70px;
+        left: 0;
+    }
+    .main-navigation.navbar > ul, .header-b-left, .header-b-right ul, .header-top-item {
+        display: block;
+    }
+    .dropdown {
+        float: none;
+    }
+    .main-navigation.navbar ul li > a, .header-b-right ul li a {
+        padding: 8px;
+        margin-left: 0;
+    }
+    .msitheme-dropdown-content {
+        top: 90px;
+    }
+    .header-top-item li {
+        margin: 0 0px;
+    }
+    .header-top-item li a {
+        display: block;
+        padding: 8px;
+    }
+    .header-top-item li a.login, .header-top-item li a.registration {
+        display: inline-block;
+    }
+    .header-top-item li.user-login a.login {
+        margin-right: -10px;
+    }
+    .header-top-item li.user-login i.fa-user {
+        margin-right: 0;
+    }
+    .header-top-item.navbar li ul {
+        top: 38px;
+        width: 100%;
+        left: 0;
+    }
+    .megamenu-column li {
+        display: inline-block;
+        width: 49.5%;
+    }
+
     
 }
