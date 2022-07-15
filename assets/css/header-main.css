@@ -123,6 +123,14 @@
     border-bottom: 1px solid #ddd;
 }
 
+.navbar li.dropdown ul li {
+    border: none;
+    line-height: 30px;
+}
+.navbar li.dropdown ul li a {
+    letter-spacing: 1px;
+}
+
 .navbar li ul li a {
     padding: 6px !important;
     display: block;
@@ -169,7 +177,10 @@
     float: left;
     width: 25%;
     padding: 10px;
-    height: 250px;
+}
+.megamenu-column li img {
+    width: 120px;
+    display: block;
 }
 .megamenu-column h3 {
     border-bottom: 1px solid #aaa;
