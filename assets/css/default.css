@@ -186,7 +186,7 @@ big {
 /* Links
 --------------------------------------------- */
 a {
-	color: #008cba;
+	color: #0276B3;
 	text-decoration: none;
 }
 a:visited {
@@ -224,7 +224,7 @@ a:active {
     z-index: 1;
 }
 #go-top:hover {
-    background: #008cba;
+    background: #0276B3;
 }
 .full-width-header {
     width: 100% !important;
@@ -297,7 +297,7 @@ a:active {
     position: relative;
     display: inline-flex;
     padding: 10px 30px;
-    background-color: #008cba;
+    background-color: #0276B3;
     color: #fff;
     text-decoration: none;
     letter-spacing: 1px;
@@ -334,7 +334,7 @@ a:active {
 }
 
 .readmore-btn:hover i {
-    background: #008cba;
+    background: #0276B3;
 }
 .msitheme-btn.bordered {
     background: inherit;
@@ -372,8 +372,8 @@ ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo {
 }
 
 .hero-img-nav button {
-    background: #008cba;
-    border: 1px solid #008cba;
+    background: #0276B3;
+    border: 1px solid #0276B3;
     color: #fff;
     padding: 15px 21px;
     font-size: 25px;
