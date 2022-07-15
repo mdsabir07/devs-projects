@@ -278,7 +278,7 @@ a:active {
     transition: max-height .25s ease-in-out; 
 } 
 .msitheme-acordion .toggle:checked + .msitheme-acordion-toggle + .collapsible-content { 
-    max-height: 350px; 
+    max-height: max-content; 
 } 
 .msitheme-acordion .toggle:checked+.msitheme-acordion-toggle { 
     border-bottom-right-radius: 0; 

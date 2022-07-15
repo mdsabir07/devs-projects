@@ -328,7 +328,7 @@
         height: 165px;
     }
     .msitheme-filters .slick-arrow {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -389,8 +389,8 @@
 
 @media (max-width: 991px) {
     .masonry-container {
-        grid-template-columns: repeat(auto-fill, minmax(50%), 1fr));
-        grid-template-rows: : minmax(auto, auto);
+        grid-template-columns: repeat(auto-fill, minmax(50%), 1fr);
+        grid-template-rows: minmax(auto, auto);
     }
 
     .masonry-box {grid-column: unset !important;grid-row: unset !important;}
