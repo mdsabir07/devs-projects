@@ -359,7 +359,7 @@ a:active {
 }
 
 /* tooggle CSS   */
-ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo {
+ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo, #toggleMobileMenu {
     display: none;
     position: absolute;
     padding: 10px 15px 0;

@@ -194,14 +194,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="responsive-menus">
+                    <button onclick="msithemeMobileMenuFunction()"><i class="fa-solid fa-bars"></i></button>
+                    <div class="responsive-menus" id="toggleMobileMenu">
                         <div class="header-bottom">
                             <div class="header-b-left">
-                                <div class="site-logo">
-                                    <a class="custom-logo-link" href="index.html">
-                                        <img src="assets/imgs/logo.png" alt="Logo">
-                                    </a>
-                                </div>
                                 <nav class="main-navigation navbar">
                                     <ul>
                                         <li><a href="#">Vehicles</a></li>
@@ -330,6 +326,11 @@
                                         </li>
                                     </ul>
                                 </nav>
+                                <div class="site-logo">
+                                    <a class="custom-logo-link" href="index.html">
+                                        <img src="assets/imgs/logo.png" alt="Logo">
+                                    </a>
+                                </div>
                             </div>
                             <div class="header-b-right">
                                 <ul>
@@ -797,5 +798,16 @@
     <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script>
+        // Tooggle nav2
+        function msithemeMobileMenuFunction() {
+            var x = document.getElementById("toggleMobileMenu");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>
