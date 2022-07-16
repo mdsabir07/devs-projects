@@ -23,40 +23,86 @@
             <header class="site-header everest-page" id="header">
                 <div class="header-wrapper">
                     <div class="container-fluid">
-                        <div class="header-bottom">
-                            <div class="header-b-left">
-                                <div class="site-logo">
-                                    <a class="custom-logo-link" href="index.html">
-                                        <img src="assets/imgs/logo.png" alt="Logo">
-                                    </a>
+                        <div class="desktop-menus">
+                            <div class="header-bottom">
+                                <div class="header-b-left">
+                                    <div class="site-logo">
+                                        <a class="custom-logo-link" href="index.html">
+                                            <img src="assets/imgs/logo.png" alt="Logo">
+                                        </a>
+                                    </div>
+                                    <nav class="main-navigation navbar">
+                                        <ul>
+                                            <li><a href="#">Vehicles</a></li>
+                                            <li>
+                                                <a href="#">Shop</a>
+                                            </li>
+                                            <li><a href="#">Finance</a></li>
+                                            <li><a href="#">Owners</a></li>
+                                            <li class="dropdown-parent">
+                                                <a href="cars.html">Cars</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
                                 </div>
-                                <nav class="main-navigation navbar">
-                                    <ul>
-                                        <li><a href="#">Vehicles</a></li>
-                                        <li>
-                                            <a href="#">Shop</a>
-                                        </li>
-                                        <li><a href="#">Finance</a></li>
-                                        <li><a href="#">Owners</a></li>
-                                        <li class="dropdown-parent">
-                                            <a href="cars.html">Cars</a>
-                                        </li>
-                                    </ul>
-                                </nav>
+                                <div class="header-right">
+                                    <div class="hero-img-nav SubsOneToggle">
+                                        <button onclick="msithemeSubsOneFunction()"><i class="fa-solid fa-user"></i>
+                                            <i class="fa-solid fa-angle-down"></i></button>
+                                        <ul id="toggleMenuItemOne">
+                                            <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Build & Price</a></li>
+                                            <li><a href="javascript:voip(0)"><i class="fa-solid fa-map-marker"></i> Locate Dealer</a></li>
+                                            <li><a href="javascript:voip(0)"><i class="fa-solid fa-home"></i> Download Brochure</a></li>
+                                            <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Latest Offers</a></li>
+                                            <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Book A Test Drive</a></li>
+                                            <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Request A Quote</a></li>
+                                            <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Ask Ford</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="header-right">
-                                <div class="hero-img-nav SubsOneToggle">
-                                    <button onclick="msithemeSubsOneFunction()"><i class="fa-solid fa-user"></i>
-                                        <i class="fa-solid fa-angle-down"></i></button>
-                                    <ul id="toggleMenuItemOne">
-                                        <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Build & Price</a></li>
-                                        <li><a href="javascript:voip(0)"><i class="fa-solid fa-map-marker"></i> Locate Dealer</a></li>
-                                        <li><a href="javascript:voip(0)"><i class="fa-solid fa-home"></i> Download Brochure</a></li>
-                                        <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Latest Offers</a></li>
-                                        <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Book A Test Drive</a></li>
-                                        <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Request A Quote</a></li>
-                                        <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Ask Ford</a></li>
-                                    </ul>
+                        </div>
+                        <div class="responsive-menus">
+                            <div class="mobile-navs">
+                                <div class="header-bottom">
+                                    <button onclick="msithemeMobileMenuFunction()"><i class="fa-solid fa-bars"></i></button>
+                                    <div id="toggleMobileMenu">
+                                        <div class="header-b-left">
+                                            <nav class="main-navigation navbar">
+                                                <ul>
+                                                    <li><a href="#">Vehicles</a></li>
+                                                    <li>
+                                                        <a href="#">Shop</a>
+                                                    </li>
+                                                    <li><a href="#">Finance</a></li>
+                                                    <li><a href="#">Owners</a></li>
+                                                    <li class="dropdown-parent">
+                                                        <a href="cars.html">Cars</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                    <div class="site-logo">
+                                        <a class="custom-logo-link" href="index.html">
+                                            <img src="assets/imgs/logo.png" alt="Logo">
+                                        </a>
+                                    </div>
+                                    <div class="header-right">
+                                        <div class="hero-img-nav SubsOneToggle">
+                                            <button onclick="msithemeSubsOneFunction()"><i class="fa-solid fa-user"></i>
+                                                <i class="fa-solid fa-angle-down"></i></button>
+                                            <ul id="toggleMenuItemOne">
+                                                <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Build & Price</a></li>
+                                                <li><a href="javascript:voip(0)"><i class="fa-solid fa-map-marker"></i> Locate Dealer</a></li>
+                                                <li><a href="javascript:voip(0)"><i class="fa-solid fa-home"></i> Download Brochure</a></li>
+                                                <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Latest Offers</a></li>
+                                                <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Book A Test Drive</a></li>
+                                                <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Request A Quote</a></li>
+                                                <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Ask Ford</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -548,6 +594,15 @@
         // Tooggle nav2
         function msithemeSubsTwoFunction() {
             var x = document.getElementById("toggleMenuItemTwo");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+        // mobile nav
+        function msithemeMobileMenuFunction() {
+            var x = document.getElementById("toggleMobileMenu");
             if (x.style.display === "block") {
                 x.style.display = "none";
             } else {

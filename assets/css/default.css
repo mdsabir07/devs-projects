@@ -480,9 +480,10 @@ ul#toggleMenuItemOne li a i {
  
     #toggleMenuItemTwo {
         top: 53px;
-        width: 229px;
-        right: auto;
-        left: -20px;
+        width: 100%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
     }
     ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo {
         padding: 5px 8px 0;
