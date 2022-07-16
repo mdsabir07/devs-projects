@@ -372,8 +372,8 @@ ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo, #toggleMobileMenu {
 }
 
 .hero-img-nav button {
-    background: #0276B3;
-    border: 1px solid #0276B3;
+    background: transparent;
+    border: none;
     color: #fff;
     padding: 15px 21px;
     font-size: 25px;
