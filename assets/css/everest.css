@@ -1,20 +1,33 @@
+/* Color CSS */
+.header-bottom.everest-b-header ul > li a, .header-bottom.everest-b-header .header-top-item.navbar > li i, .dark-blue, .next-gen-item h3 a {
+    color: #fff;
+}
+
+.tab-switch:checked + .tab-label, .everest-lineup-img-block, .img-and-text, .tab-content {
+    background: #fff;
+}
+
 .header-bottom.everest-b-header {
     background: #00035F;
 }
+
+.content-block-list .container-fluid, .everest-lineup-img-block, .img-blocks, .lightbox-galleries {
+    display: grid;
+}
+
+/* Color END */
+
 .everest .site-header {
     border-right: none;
     border-left: none;
 }
-.header-bottom.everest-b-header ul > li a {
-    color: #fff;
-}
+
 .header-bottom.everest-b-header .header-top-item.navbar > li i {
     height: 30px;
     width: 30px;
     border: 1px solid #fff;
     line-height: 30px;
     text-align: center;
-    color: #fff;
     border-radius: 50%;
 }
 .everest-page .header-bottom {
@@ -137,7 +150,6 @@
 
 /* content block list css */
 .content-block-list .container-fluid {
-    display: grid;
     grid-template-columns: 2fr 2fr;
     align-items: center;
     gap: 40px;
@@ -166,11 +178,9 @@
 }
 
 .everest-lineup-img-block {
-    display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
     gap: 50px;
-    background: #fff;
     padding-bottom: 50px;
 }
 
@@ -206,7 +216,6 @@
 }
 
 .img-blocks {
-    display: grid;
     grid-template-columns: 2fr 2fr;
     gap: 40px 85px;
 }
@@ -235,13 +244,11 @@
     margin-top: 30px;
 }
 .img-and-text {
-    background: #fff;
     padding: 50px 0;
 }
 .dark-blue {
     background: darkblue;
     padding: 50px 0;
-    color: #fff;
 }
 
 .next-gen-btn {
@@ -276,9 +283,6 @@
     margin-bottom: 0;
 }
 
-.next-gen-item h3 a {
-    color: #fff;
-}
 .next-gen-list {
     background: #1B394E;
     padding: 80px;
@@ -331,14 +335,12 @@
     z-index: 1;
     top: 2.75em;
     left: 0;
-    background: #fff;
     color: #2c3e50;
     opacity: 0;
     transition: all 0.35s;
     width: 100%;
 }
 .tab-switch:checked + .tab-label {
-    background: #fff;
     color: #2c3e50;
     border-bottom: 0;
     border-right: 0.125rem solid #fff;
@@ -450,7 +452,6 @@
 }
 
 .lightbox-galleries {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
 }

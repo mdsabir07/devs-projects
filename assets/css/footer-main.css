@@ -1,3 +1,13 @@
+/* Colors */
+.foo-search input[type="text"]::placeholder, .foo-search button, .foo-search input[type="text"], .footer-mid h5, .footer-bottom, ul.foo-social li a i {
+    color: #fff;
+}
+
+/* Flex CSS */
+ul.foo-social, .foo-top-nav ul, .footer-bottom, .copyright-wrap, .cpr-left, ul.cpr-nav {
+    display: flex;
+}
+
 
 /* Footer CSS */
 .footer-top {
@@ -22,10 +32,6 @@
     font-size: 18px;
 }
 
-.foo-search input[type="text"]::placeholder, .foo-search button, .foo-search input[type="text"] {
-    color: #fff;
-}
-
 .foo-search button {
     background: transparent;
     border: none;
@@ -33,7 +39,6 @@
 }
 
 .foo-top-nav ul {
-    display: flex;
     justify-content: flex-end;
     margin: 0;
 }
@@ -54,37 +59,24 @@
 }
 
 .footer-mid h5 {
-    color: #fff;
     margin-bottom: 15px;
 }
 
 .footer-bottom {
     background: #1B394E;
-    color: #fff;
-    display: flex;
     justify-content: space-between;
     padding: 30px 20px;
 }
 
-ul.foo-social {
-    display: flex;
-}
-
 .copyright-wrap {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px;
 }
 
 .cpr-left {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-ul.cpr-nav {
-    display: flex;
 }
 
 ul.cpr-nav li a {display: block;padding: 10px;margin-left: 5px;}
@@ -109,7 +101,6 @@ ul.foo-social li a i {
     display: block;
     line-height: 30px;
     text-align: center;
-    color: #fff;
     margin-left: 10px;
 }
 @media only screen and (max-width: 767px) {
