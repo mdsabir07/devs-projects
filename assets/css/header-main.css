@@ -263,6 +263,9 @@
     .everest-page #toggleMobileMenu {
         top: 60px;
     }
+    .everest-page .header-bottom {
+        padding: 10px 0;
+    }
     .main-navigation.navbar > ul, .header-b-left, .header-b-right ul, .header-top-item {
         display: block;
     }
