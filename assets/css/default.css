@@ -380,6 +380,10 @@ ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo, #toggleMobileMenu, 
     cursor: pointer;
 }
 
+.electric-event .hero-img-nav button {
+    background: #00035B;
+}
+
 .hero-img-nav button i {
     padding-left: 30px;
 }

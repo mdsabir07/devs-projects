@@ -44,8 +44,8 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .hero-img-wrap {
-        margin-top: 260px;
+    .electric-event .hero-img-wrap {
+        margin-top: 70px;
     }
     .hero-img-nav {
         width: 100%;

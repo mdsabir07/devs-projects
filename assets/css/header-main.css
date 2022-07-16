@@ -256,6 +256,9 @@
     .main-content {
         margin-top: 70px;
     }
+    .electric-event .main-content {
+        margin-top: 0px;
+    }
     #toggleMobileMenu {
         top: 70px;
         left: 0;
