@@ -1,3 +1,11 @@
+/* Colors */
+.slider-content, .slider-content a, .msitheme-slider .slick-prev::before, .msitheme-slider .slick-next::before, #ScrollToBottom, .cta-content, .cta-content a, .masonry-box, .masonry-content {
+    color: #fff;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
 
 
 /* slider css */
@@ -8,12 +16,6 @@
 .slick-slide img {
   width: 100%;
 }
-
-.slick-prev:before,
-.slick-next:before {
-  color: black;
-}
-
 
 .slick-slide {
   transition: all ease-in-out .3s;
@@ -42,10 +44,6 @@
     text-transform: uppercase;
     font-weight: 400;
     line-height: 50px;
-}
-
-.slider-content, .slider-content a {
-    color: #fff;
 }
 
 .slider-sub-heading {
@@ -101,7 +99,6 @@
     font-weight: 100;
     font-family: 'Ford Antenna ExtraCond';
     content: "<";
-    color: #fff;
     line-height: 50px;
 }
 
@@ -176,7 +173,6 @@
     margin: 0 auto;
     text-align: center;
     font-size: 25px;
-    color: #fff;
     height: 40px;
     width: 40px;
     border: 1px solid #fff;
@@ -187,7 +183,6 @@
 }
 
 .cta-content, .cta-content a {
-    color: #fff;
     text-align: center;
 }
 
@@ -354,7 +349,6 @@
 .masonry-box {
     display: grid;  
     text-align: center;
-    color: #fff;
     transition: 0.5s;
 }
 .masonry-content-blank {
@@ -367,7 +361,6 @@
     position: absolute;
     bottom: 8px;
     background: rgba(0,0,0,0.5);
-    color: #fff;
     width: 100%;
     padding: 8px;
 }
