@@ -498,5 +498,19 @@ ul#toggleMenuItemOne li a i, #toggleMenuItemOneMobile li a i {
     #go-top {
         right: 20px;
     }
+    #toggleMenuItemOneMobile {
+        width: 356px;
+        right: -18px;
+        top: 38px;
+    }
+    #toggleMenuItemOneMobile li a i {
+        font-size: 16px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+    #toggleMenuItemOneMobile li a {
+        font-size: 13px;
+    }
 
 }
