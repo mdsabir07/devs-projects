@@ -6,9 +6,9 @@
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
-        speed: 3000
+        speed: 2000
     });
 
     // Tab image slider
@@ -19,7 +19,7 @@
         slidesToScroll: 1,
         autoplay: false,
         autoplaySpeed: 2000,
-        speed: 3000
+        speed: 2000
     });
     // Everest page hero slider
     $(".everest-hero-slider").slick({
@@ -29,7 +29,7 @@
         slidesToScroll: 1,
         autoplay: false,
         autoplaySpeed: 2000,
-        speed: 3000,
+        speed: 2000,
     });
 
     // Filtering
