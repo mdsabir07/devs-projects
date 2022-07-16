@@ -359,7 +359,7 @@ a:active {
 }
 
 /* tooggle CSS   */
-ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo, #toggleMobileMenu {
+ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo, #toggleMobileMenu, #toggleMenuItemOneMobile {
     display: none;
     position: absolute;
     padding: 10px 15px 0;
@@ -384,11 +384,11 @@ ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo, #toggleMobileMenu {
     padding-left: 30px;
 }
 
-ul#toggleMenuItem li, ul#toggleMenuItemOne li, #toggleMenuItemTwo li {
+ul#toggleMenuItem li, ul#toggleMenuItemOne li, #toggleMenuItemTwo li, #toggleMenuItemOneMobile li {
     border-bottom: 2px solid #ddd;
 }
 
-ul#toggleMenuItem li a, ul#toggleMenuItemOne li a, #toggleMenuItemTwo li a {
+ul#toggleMenuItem li a, ul#toggleMenuItemOne li a, #toggleMenuItemTwo li a, #toggleMenuItemOneMobile li a {
     padding: 5px;
     display: block;
 }
@@ -417,14 +417,14 @@ ul#toggleMenuItem li a, ul#toggleMenuItemOne li a, #toggleMenuItemTwo li a {
     padding-left: 5px;
 }
 
-ul#toggleMenuItemOne {
+ul#toggleMenuItemOne, #toggleMenuItemOneMobile {
     padding: 10px 0 0;
     width: 400px;
     right: 0;
     top: 50px;
 }
 
-ul#toggleMenuItemOne li {
+ul#toggleMenuItemOne li, #toggleMenuItemOneMobile li {
     border: inherit;
     display: inline-block;
     width: 32.7%;
@@ -433,7 +433,7 @@ ul#toggleMenuItemOne li {
     margin-bottom: 15px;
 }
 
-ul#toggleMenuItemOne li a i {
+ul#toggleMenuItemOne li a i, #toggleMenuItemOneMobile li a i {
     display: block;
     font-size: 20px;
     height: 50px;
@@ -485,7 +485,7 @@ ul#toggleMenuItemOne li a i {
         left: 0;
         margin: 0 auto;
     }
-    ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo {
+    ul#toggleMenuItem, ul#toggleMenuItemOne, #toggleMenuItemTwo, #toggleMenuItemOneMobileMobile {
         padding: 5px 8px 0;
     }
     .section-title h2 {

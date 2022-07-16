@@ -89,9 +89,9 @@
                                 </div>
                                 <div class="header-right">
                                     <div class="hero-img-nav SubsOneToggle">
-                                        <button onclick="msithemeSubsOneFunction()"><i class="fa-solid fa-user"></i>
+                                        <button onclick="msithemeSubsOneMobileFunction()"><i class="fa-solid fa-user"></i>
                                             <i class="fa-solid fa-angle-down"></i></button>
-                                        <ul id="toggleMenuItemOne">
+                                        <ul id="toggleMenuItemOneMobile">
                                             <li><a href="javascript:voip(0)"><i class="fa-solid fa-star"></i> Build & Price</a></li>
                                             <li><a href="javascript:voip(0)"><i class="fa-solid fa-map-marker"></i> Locate Dealer</a></li>
                                             <li><a href="javascript:voip(0)"><i class="fa-solid fa-home"></i> Download Brochure</a></li>
@@ -579,6 +579,15 @@
             alta.src= 'assets/imgs/car-grey.jpg';
         }
 
+        // Tooggle nav1 mobile
+        function msithemeSubsOneMobileFunction() {
+            var x = document.getElementById("toggleMenuItemOneMobile");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
         // Tooggle nav1
         function msithemeSubsOneFunction() {
             var x = document.getElementById("toggleMenuItemOne");
