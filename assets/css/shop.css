@@ -162,6 +162,7 @@ h4.product-title {
     text-align: center;
     line-height: 44px;
     display: inline-block;
+    border: 1px solid;
 }
 
 .msitheme-pagination ul li.current a, .msitheme-pagination ul li:hover > a {
