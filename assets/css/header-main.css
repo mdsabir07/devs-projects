@@ -260,6 +260,9 @@
         top: 70px;
         left: 0;
     }
+    .everest-page #toggleMobileMenu {
+        top: 60px;
+    }
     .main-navigation.navbar > ul, .header-b-left, .header-b-right ul, .header-top-item {
         display: block;
     }
