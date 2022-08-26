@@ -80,7 +80,7 @@
                 slidesToScroll: 1
               }
             }
-          ]
+        ]
     });
 
     // Scroll to top
